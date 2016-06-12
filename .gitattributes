@@ -1,0 +1,19 @@
+# Images
+*.tif -text -diff
+*.jpg -text -diff
+*.gif -text -diff
+*.pdn -text -diff
+
+*.pdf -text -diff
+*.eps -text -diff
+*.dvi -text -diff
+*.ps -text -diff
+*.sla -text
+
+
+*.doc -text -diff
+*.docx -text -diff
+*.xlsx -text -diff
+*.pptx -text -diff
+*.zip -text -diff
+*.7z -text -diff

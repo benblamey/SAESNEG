@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Metadata complete means that all servlets etc. are listed in here, no 
+	need for slow reflection scsn. -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	metadata-complete="false"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<session-config>
+		<cookie-config>
+			<path>/</path>
+		</cookie-config>
+	</session-config>
+        
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/WEB-INF/error.jsp</location>
+	</error-page>
+	<welcome-file-list>
+		<welcome-file>Index</welcome-file>
+	</welcome-file-list>
+        
+        
+    <filter>
+       <filter-name>ExpiresFilter</filter-name>
+       <filter-class>benblamey.evaluation.ExpiresFilter</filter-class>
+    </filter>
+    <filter-mapping>
+       <filter-name>ExpiresFilter</filter-name>
+       <url-pattern>/gnuplots/*</url-pattern>
+       <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+        
+        <!--
+	<filter>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+        -->
+
+
+	<welcome-file-list>
+		<welcome-file>Index</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>CompareDatumPair</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.debug.CompareDatumPair</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CompareDatumPair</servlet-name>
+		<url-pattern>/CompareDatumPair</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DebugIndex</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.debug.DebugIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DebugIndex</servlet-name>
+		<url-pattern>/DebugIndex</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ComputeEventClusters</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.debug.ComputeEventClusters</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComputeEventClusters</servlet-name>
+		<url-pattern>/ComputeEventClusters</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ViewGroundTruthEvents</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.debug.ViewGroundTruthEvents</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewGroundTruthEvents</servlet-name>
+		<url-pattern>/ViewGroundTruthEvents</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CompareClusterAccuracy</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.debug.CompareClusterAccuracy</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CompareClusterAccuracy</servlet-name>
+		<url-pattern>/CompareClusterAccuracy</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LifeLogInterface</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.debug.LifeLogInterface</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LifeLogInterface</servlet-name>
+		<url-pattern>/LifeLogInterface</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>GroundTruth</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.GroundTruth</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroundTruth</servlet-name>
+		<url-pattern>/GroundTruth</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>benblamey.evaluation.web.servlets.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/Index</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

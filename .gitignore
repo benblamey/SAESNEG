@@ -1,0 +1,9 @@
+/benblamey.urbandictionary/benblamey.urbandictionary/nbproject/private/
+/benblamey.pipeline.fetcher/nbproject/private/
+
+
+*.timestamp
+/benblamey/nbbuild
+/benblamey.evaluation/nbproject/private/
+/benblamey.evaluation/build/
+/benblamey.evaluation/web/gnuplots/*.png

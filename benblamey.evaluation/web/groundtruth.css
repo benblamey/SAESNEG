@@ -1,0 +1,249 @@
+
+#header {
+	margin: 0;
+}
+
+body { 
+	margin: 0; /* Makes absolute layout easier.*/
+}
+#headerdiv {
+	position: absolute;
+	overflow: hidden;
+	height: 50px;
+	padding: 5px;
+	width: 90%;
+	top: 0;
+}
+#content {
+	width: 100%;
+	/*height: 85vh;*/
+	position: absolute;
+	top: 50px; /* =Height of headerdiv */
+	bottom: 56px; /* =Height of footerdiv */
+}
+#footerdiv {
+	position: absolute;
+        bottom: 0;
+        
+	overflow: hidden;
+	height: 56px;
+	padding: 3px;
+	
+	width: 90%;
+}
+
+
+#content ul {
+	list-style-type: none; /* Remove bullets from all ul's */
+}
+
+.drop-hover {
+	background: #FFF78C !important;
+}
+
+#arrows {
+	position: relative;
+	top: -20px;
+	font-size: 3em;
+}
+
+#gallery {
+	margin: 0;
+	float: left;
+	width: 50%;
+	padding: 0;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*min-height: 12em;*/
+	/*background: red;*/
+}
+
+#gallery.custom-state-active {
+	background: #eee; 
+}
+
+#gallery > li {
+	margin: 6px;
+}
+#gallery li a { 
+	/*float: right;*/ }
+#gallery li a.ui-icon-zoomin { 
+	float: left; }
+
+#events {
+	float: right;
+	width: 50%;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*background: pink;*/
+}
+.event {
+	border: 3px dashed #AFAFAF/*#D8D8D8*/;
+	margin: 12px;
+	background: white;
+}
+.event .header {
+	font-weight: bold;
+	font-size: 90%;
+	margin: 0px;
+	display: inline; /* We want the pencil on the same line. */
+	white-space: nowrap /* Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a tag is encountered */
+}
+
+#newevent {
+	width: 40%;
+	float: right;
+	margin: 3,20,7,5;
+}
+
+#newevent .header {
+	font-size: 90%;
+}
+
+.pencil {
+	height: 1.2em; /* Size of pencil scales roughly with font*/
+}
+
+div.event ul { 
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Default styles for all socialnetworkdatum */
+li.socialnetworkdatum {
+	background: white;
+	/* From the outside - the li's are rendered inline (i.e. on the same line) 
+	from the inside, they appear to be block level. */
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid #AFAFAF;
+	padding: 2px;
+}
+
+/* When the datum is not being shown in the window, show the move cursor. */
+#content li.socialnetworkdatum {
+	cursor: move;
+}
+
+
+.content li.socialnetworkdatum { 
+	max-width: 45%; /* Leave space for some margins */
+}
+
+
+/* Default socialnetworkdatum header */
+li.socialnetworkdatum  h5 {
+	margin: 0; /* Headers have lots of margin by default. */
+	font-size: 70%;
+	max-width: 15em;
+}
+/* Status messages are allowed longer header. */
+.facebookstatusdatum  h5 {
+	max-width: 20em !important;
+}
+
+
+/* Trim 'location' property value (from events) (not when in the dialog) */
+#content li.socialnetworkdatum  .Location {
+	overflow: hidden; /* Overflow text is hidden with ellipsis */
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis; /* Make it work in opera */
+	white-space: nowrap;
+	max-width: 24em;
+}
+
+#gallery li.socialnetworkdatum img {
+	float: left;
+}
+
+li.socialnetworkdatum .ui-icon-zoomin {
+	cursor: pointer; /* Zoom is like a hand */
+}
+li.socialnetworkdatum .zoomin-container {
+	float: right;
+}
+
+/* Hide Some Properties in the Gallery */
+#gallery .socialnetworkdatum .AlbumDescription {display: none;}
+#gallery .socialnetworkdatum .AlbumLocation {display: none;}
+#gallery .socialnetworkdatum .AlbumName {display: none;}
+#gallery .socialnetworkdatum .OSN {display: none;}
+#gallery .socialnetworkdatum .People {display: none;}
+#gallery .socialnetworkdatum .PhotoName {display: none;}
+#gallery .socialnetworkdatum .Type {display: none;}
+#gallery .socialnetworkdatum .Description {display: none;}
+#gallery .socialnetworkdatum .Status {display: none;} /* Status text is shown in title */
+#gallery .socialnetworkdatum .RSVP {display: none;}
+
+div.event .datumwebproperty {
+	display: none;
+}
+
+p.datumwebproperty {
+	margin: 0;
+	font-size: 70%;
+}
+span.datumwebpropertykey {
+	font-weight: bold;
+}
+
+
+/*  State-Specific socialnetworkdatum styles  */
+div.event li.socialnetworkdatum {
+	margin: 3px;
+}
+
+/* Hide the zoom icon from within the dialog */
+.ui-dialog li.socialnetworkdatum .ui-icon-zoomin {
+	display: none;
+}
+/* Hide H5 from within the dialog */
+.ui-dialog li.socialnetworkdatum h5 {
+	display: none;
+}
+
+
+/* Datums inside events should have small images. */
+div.event li.socialnetworkdatum .datum_photo {
+	width: 50px;
+}
+/* Datums in the gallery should be larger. */
+ul#gallery li.socialnetworkdatum .datum_photo {
+	/*display: list-item;*/ 
+	height: 72px;
+}
+
+
+#dialog_container img.datum_photo {
+	max-height: 400px;
+	align: center;
+}
+
+#footnotes {
+	margin: 0;
+	font-size: 70%;
+	padding-top: 5px;	
+}
+
+.srrows {
+	font-size: 70%;
+}
+
+.editeventtip {
+	margin: 0px;
+	font-weight: bold;
+}
+
+.ui-icon-zoomin {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+
+#done_div {
+	float: right;
+	padding-top: 5px;
+}

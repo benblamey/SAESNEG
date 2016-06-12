@@ -1,0 +1,59 @@
+package benblamey.saesneg.experiments.configs;
+
+import benblamey.saesneg.experiments.Experiment;
+import benblamey.saesneg.experiments.ExperimentOptions;
+import benblamey.saesneg.experiments.ExperimentSet;
+import benblamey.saesneg.experiments.PhaseBOptions;
+import benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.mongodb.BasicDBObject;
+
+public class PhaseBOnly_Predict_ExperimentSet {
+
+    public static void main(String[] args) throws Exception {
+
+        ExperimentSet set = new ExperimentSet();
+        set.name = "FullPipelineNoOSMExperimentSet";
+
+        set.addExperiment(new Experiment(set) {
+            {
+                Name = "default";
+                Options = new ExperimentOptions() {
+                    {
+                        UserQuery = new BasicDBObject() {
+                            {
+                                append("LIFE_STORY_INFOS.SUCCESS", true); // Select only users for whom we have a valid life story.
+                                append("GROUND_TRUTH_EVENTS", new BasicDBObject() { // Where the user has created ground truth events.
+                                    {
+                                        append("$exists", true);
+                                    }
+                                });
+                            }
+                        };
+
+                        // Phase A options.
+                        _gisTextOptions = null; // Don't run OSM search.
+                        _textOptions = new ProcessTextOptions() {
+                            {
+                                // Skip text processing.
+                                USE_CACHED_GATE_DOC = true;
+                            }
+                        };
+
+                        PhaseBOptions = new PhaseBOptions() {
+                            {
+                                LibSVMGoldAction = null;
+
+                                exportForDiffTool = true;
+                                computePairwiseAccuracy = true;
+                            }
+                        };
+                    }
+                };
+
+            }
+        });
+
+        set.run();
+
+    }
+}

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+               realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+    <class id="1" language="java" name="benblamey.saesneg.phaseA.text.GateSubDocument" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/GateSubDocument.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="369" width="302" x="1729" y="37"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="2" language="java" name="benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter" 
+           project="benblamey" file="/benblamey/src/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocumentWriter.java" 
+           binary="false" corner="BOTTOM_RIGHT">    
+        <position height="153" width="259" x="2224" y="554"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="3" language="java" name="benblamey.saesneg.phaseA.text.GateToolsMain" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/GateToolsMain.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="2136" y="996"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="4" language="java" name="benblamey.saesneg.phaseA.text.eval.GATEAnnotationEvaluator" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/eval/GATEAnnotationEvaluator.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="2737" y="581"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="5" language="java" name="benblamey.saesneg.phaseA.text.stanford.StanfordNLPTestMain" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/stanford/StanfordNLPTestMain.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="201" y="566"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <enumeration id="6" language="java" name="benblamey.saesneg.phaseA.text.eval.AnnotationTupleLabel" project="benblamey" 
+                 file="/benblamey/src/benblamey/saesneg/phaseA/text/eval/AnnotationTupleLabel.java" binary="false" 
+                 corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="3221" y="780"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </enumeration>  
+    <class id="7" language="java" name="benblamey.saesneg.phaseA.text.nerpaper.GoldMain" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/nerpaper/GoldMain.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="2583" y="412"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="8" language="java" name="benblamey.saesneg.phaseA.text.ProcessText" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/ProcessText.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1999" y="791"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="9" language="java" name="benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriterTest" 
+           project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocumentWriterTest.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1504" y="626"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="10" language="java" name="benblamey.saesneg.phaseA.text.nerpaper.SamePlaceCalculator" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/nerpaper/SamePlaceCalculator.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="3231" y="622"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="11" language="java" name="benblamey.saesneg.phaseA.text.eval.GATEAnnotationTuple" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/eval/GATEAnnotationTuple.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="2937" y="787"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <enumeration id="12" language="java" name="benblamey.saesneg.phaseA.text.GATEFileKind" project="benblamey" 
+                 file="/benblamey/src/benblamey/saesneg/phaseA/text/GATEFileKind.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="124" y="133"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </enumeration>  
+    <class id="13" language="java" name="benblamey.saesneg.phaseA.text.nerpaper.GoldNotInOSMException" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/nerpaper/GoldNotInOSMException.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="99" width="290" x="2413" y="37"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="14" language="java" name="benblamey.saesneg.phaseA.text.ProcessTextOptions" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/ProcessTextOptions.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="2579" y="874"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="15" language="java" name="benblamey.saesneg.phaseA.text.stanford.TemporalExpression" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/stanford/TemporalExpression.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="243" width="244" x="2743" y="37"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="16" language="java" name="benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentReader" 
+           project="benblamey" file="/benblamey/src/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocumentReader.java" 
+           binary="false" corner="BOTTOM_RIGHT">    
+        <position height="81" width="265" x="1919" y="554"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="17" language="java" name="benblamey.saesneg.phaseA.text.nerpaper.OSMExperimentMain" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/nerpaper/OSMExperimentMain.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="3230" y="265"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="18" language="java" name="benblamey.saesneg.phaseA.text.stanford.StanfordNLPService" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/stanford/StanfordNLPService.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="538" y="248"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="19" language="java" name="benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocument" 
+           project="benblamey" file="/benblamey/src/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocument.java" 
+           binary="false" corner="BOTTOM_RIGHT">    
+        <position height="333" width="302" x="2071" y="37"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="20" language="java" name="benblamey.saesneg.phaseA.text.nerpaper.GoldLabelling" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/phaseA/text/nerpaper/GoldLabelling.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="192" y="340"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <generalization id="21">    
+        <end type="SOURCE" refId="16"/>    
+        <end type="TARGET" refId="19"/>  
+    </generalization>  
+    <association id="22">    
+        <end type="SOURCE" refId="14" navigable="false">      
+            <attribute id="23" name="Default"/>      
+            <multiplicity id="24" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="14" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="25">    
+        <end type="SOURCE" refId="17" navigable="false">      
+            <attribute id="26" name="calc"/>      
+            <multiplicity id="27" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="10" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <generalization id="28">    
+        <end type="SOURCE" refId="2"/>    
+        <end type="TARGET" refId="19"/>  
+    </generalization>  
+    <association id="29">    
+        <end type="SOURCE" refId="11" navigable="false">      
+            <attribute id="30" name="label"/>      
+            <multiplicity id="31" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="6" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+                        accessors="true" visibility="true">    
+        <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+        <operations public="true" package="true" protected="true" private="true" static="true"/>  
+    </classifier-display>  
+    <association-display labels="true" multiplicity="true"/>
+</class-diagram>

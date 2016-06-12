@@ -1,0 +1,60 @@
+body {
+	background-color:#AB3939;
+	font-family:"Arial";
+	color:white;
+}
+h1 {
+	font-size:160%
+}
+h2 {
+	font-size:120%
+}
+h3 {
+	font-size:100%
+}
+a {
+	color:white;
+}
+
+
+/* ethics.jsp */
+#consent_form_div {
+	border-style:solid;
+	border-width:medium;
+	margin:20px;
+	padding: 10px;
+}
+#existing_user_login {
+	border-style:solid;
+	border-width:medium;
+	margin:20px;
+	padding: 10px;
+}
+#must_check {
+	color:black;
+	font-weight:bold;
+} 
+
+/* for future event questionnaire */
+div.event {
+	border-style:outset;
+	border-width:thick;
+	margin:20px;
+	padding: 10px;
+}
+p.event_metadata {
+	font-weight: bold;
+}
+
+/* Common */
+#header {
+	border-style:solid;
+	border-width:thin;
+	margin-top:30px;
+	padding: 10px;
+}
+
+/* Unknown Giles */
+table.likert { 
+	border-spacing: 15px;
+}

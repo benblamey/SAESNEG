@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/stanford_nlp/target/classes"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SocialWorldCommon"/>
+	<classpathentry kind="lib" path="C:/work/code/Ben/caliph-emir/build/classes"/>
+	<classpathentry kind="lib" path="C:/work/code/Ben/ben_phd_java/benblamey.core/build/classes"/>
+	<classpathentry kind="lib" path="C:/work/code/Ben/ben_phd_java/ClingoWrapper/build/classes"/>
+	<classpathentry excluding="**.timestamp" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/ant.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/ant-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/ant-launcher.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/apache-mime4j-core.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/apache-mime4j-dom.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/bcmail-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/bcprov-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/commons-codec.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/commons-compress.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/fontbox.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/gate-asm.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/gate-compiler-jdt.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/ivy.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/java2html.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/javacc.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/java-getopt.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/jaxen.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/jempbox.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/nekohtml.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/pdfbox.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/poi.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/poi-ooxml.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/poi-ooxml-schemas.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/poi-scratchpad.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/spring-aop.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/spring-beans.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/tika-core.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/tika-parsers.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/wstx-lgpl.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/xmlbeans.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/xmlunit.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/xpp3.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/xstream.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/bin/gate.jar" sourcepath="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/src"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/ark-tweet-nlp-0.3/ark-tweet-nlp-0.3.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/commons-dbcp-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/commons-lang3-3.1/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/heideltime-standalone/de.unihd.dbs.heideltime.standalone.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/extjwnl-1.6.8/lib/extjwnl-1.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/javax.mail-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/joda-time-2.1/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/JSON-java/dist/JSON-java.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jsoup-1.7.2/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/junit.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/lambdaj-2.4-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/logback-classic-0.9.28.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/logback-core-0.9.28.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/lucene-core.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/gate-7.0-build4195-ALL/lib/metadata-extractor.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/mongo-2.10.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://api.mongodb.org/java/2.10.1/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/mysql-connector-java-5.1.22/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/restfb/source/dist/RestFB.jar" sourcepath="C:/work/code/3rd_Ben/restfb/source"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/openrdf-sesame-2.6.8/lib/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/apache-uima/lib/uima-adapter-soap.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/apache-uima/lib/uima-core.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/apache-uima/lib/uima-document-annotation.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/apache-uima/lib/uima-examples.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/apache-uima/lib/uima-tools.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/apache-uima/lib/uimaj-bootstrap.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/jung2-2_0_1/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/velocity-1.7/velocity-1.7-dep.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Weka-3-6/weka.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/xstream-1.4.4/lib/xstream/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/stanford_nlp/jollyday.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/postgresql-9.3-1101.jdbc41.jar"/>
+	<classpathentry kind="lib" path="C:/work/code/3rd_Ben/google-gson-2.2.4/gson-2.2.4.jar" sourcepath="C:/work/code/3rd_Ben/google-gson-2.2.4/gson-2.2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/work/code/3rd_Ben/google-gson-2.2.4/gson-2.2.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

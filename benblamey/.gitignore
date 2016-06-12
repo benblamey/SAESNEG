@@ -1,0 +1,47 @@
+# C# / Visual Studio
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log
+_ReSharper.*
+*.resharper
+*.trx
+TestResults
+
+
+# java specific
+*.class
+build/
+dist/
+bin/
+doc/
+
+nbbuild/
+dist/
+
+# velocity parser (java)
+*.log.1
+
+# netbeans ignore personal stuff 
+nbproject/private/
+nbproject/configs/Run_as_WebStart.properties
+nbproject/configs/Run_in_Browser.properties
+
+# data store.
+repositories/
+
+# generic files to ignore
+*~
+*.lock
+*.DS_Store
+[Tt]humbs.db
+*.swp
+*.out
+*.tmp
+
+# build-generated files
+*.timestamp

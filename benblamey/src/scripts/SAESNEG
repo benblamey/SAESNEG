@@ -1,0 +1,69 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:	  SAESNEG
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Java daemon for Ben Blameys PHD work (SAESNEG).
+# Description:       This file should be used to construct scripts to be
+#                    placed in /etc/init.d.
+### END INIT INFO
+
+# TO INSTALL: update-rc.d benblamey_java defaults (adds symlinks from various runlevel folders)
+# ==== Service file needs to be set +x ====
+
+# Or, see ansible setup files.
+
+# Author: Ben Blamey <blamey.ben@gmail.com>
+
+# PATH should only include /usr/* if it runs after the mountnfs.sh script
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+
+
+do_start()
+{
+	# -n to not output the trailing newline.
+	echo -n Starting SAESNEG...
+        /var/lib/tomcat/webapps/benblamey.evaluation/WEB-INF/classes/scripts/SAESNEG.sh &
+	echo ...SAESNEG Started.
+}
+
+do_stop()
+{
+	# -n to not output the trailing newline.
+	echo -n Stopping SAESNEG...
+
+	# pipeline description:
+	#  ps - get the list of processes.
+	#  grep - print lines which match on process name
+	#  sed - return only the PID (leading space because of high PIDs)
+	#  xargs - for each matching line, run...
+	#  kill - to terminate the process
+
+	# kill the shell script.
+	ps ax | grep 'SAESNEG\.sh' \
+		| sed -E "s/^ *([0-9]+).*/\\1/" | xargs --no-run-if-empty kill
+
+	# kill any running java instances. 
+	ps ax | grep 'java .* SAESNEG\.daemon' \
+		| sed -E "s/^ *([0-9]+).*/\\1/" | xargs --no-run-if-empty kill
+
+	echo ...SAESNEG Stopped.
+}
+
+case "$1" in
+  start|restart)
+	do_stop
+	do_start
+	;;
+  stop)
+	do_stop
+	;;
+  *)
+	echo "Usage: $SCRIPTNAME {start|stop|restart}" >&2
+	exit 3
+	;;
+esac
+
+:

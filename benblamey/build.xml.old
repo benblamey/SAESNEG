@@ -1,0 +1,16 @@
+<?xml version="1.0" ?> 
+<project name="benblamey" default="benblamey_default">
+	
+  <target name="benblamey_default">
+        
+  	<!-- Copy event_rules.txt to output -->
+  	<copy todir="bin">
+		<fileset dir="../benblamey/bin" 
+			     includes="**/*_rules.text"/>
+	</copy>
+  
+  	
+  </target>
+
+
+</project>

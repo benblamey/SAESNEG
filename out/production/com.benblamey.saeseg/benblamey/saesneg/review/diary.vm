@@ -1,0 +1,102 @@
+<!-- ported to JSP... -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>$context.Name's Diary</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+	background-color:#D3E6FF;
+	font-family:"Arial";
+        font-size:75%
+}
+h1 {
+	font-size:160%
+}
+h2 {
+	font-size:120%
+}
+div.event {
+	border-style:solid;
+	border-width:medium;
+	margin:5px;
+	padding:2px;
+}
+div.object {
+	border-style:solid;
+	border-width:thin;
+	margin:2px;
+	padding: 2px;
+}
+img.event {
+    height: 90px;
+    float:right;
+}
+
+img.timeconstraints {
+    width: 1000px;
+}
+
+</style>
+</head>
+
+<body>
+
+#foreach( $event in $events )
+<div class="event">
+<p>
+        $event.Note
+        </p>
+
+
+    #foreach( $entry in $event.Objects )
+    <div class="object">
+
+      <img class="event" src="$entry.ImageThumbnailURL" />
+        Date: $entry.ContentAddedDateTime &nbsp;&nbsp;&nbsp;ID: $entry.ID <br>
+        #if ($entry.Name) Name: $entry.Name #end
+        <p>
+        AllText: $entry.AllText
+        </p>
+        #foreach( $pae in $entry.PeopleAtEvent.Constraints )
+            <p>
+            $pae
+            </p>
+        #end
+
+        #foreach( $tempex in $entry.TemporalExpressions )
+            <p>
+            $tempex
+            </p>
+        #end
+
+
+
+
+<pre>
+Note: $entry.Note
+</pre>
+
+<pre>
+$entry.Annotations
+</pre>
+
+#foreach( $path in $entry.TimeConstraintPlotPaths )
+
+<img class="timeconstraints" src="$path" /><br/>
+
+        #end
+
+
+        <div style="clear:both" ></div>
+
+    </div>
+    #end
+</div>
+#end
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" automaticImage="PDF" always-add-relationships="false" generalizations="true" 
+               realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+    <class id="1" language="java" name="benblamey.saesneg.model.annotations.Annotation" project="benblamey" 
+         file="/benblamey/src/benblamey/saesneg/model/annotations/Annotation.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="209" width="196" x="299" y="265"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+             sort-features="false" accessors="true" visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="2" language="java" name="benblamey.saesneg.model.annotations.TemporalAnnotation" project="benblamey" 
+         file="/benblamey/src/benblamey/saesneg/model/annotations/TemporalAnnotation.java" binary="false" 
+         corner="BOTTOM_RIGHT">    
+        <position height="263" width="207" x="299" y="514"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+             sort-features="false" accessors="true" visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="3" language="java" name="benblamey.saesneg.model.annotations.PhotoUploadTimeDensity" project="benblamey" 
+         file="/benblamey/src/benblamey/saesneg/model/annotations/PhotoUploadTimeDensity.java" binary="false" 
+         corner="BOTTOM_RIGHT">    
+        <position height="173" width="196" x="535" y="265"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+             sort-features="false" accessors="true" visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="4" language="java" name="benblamey.saesneg.model.annotations.SingleDayTimeDensity" project="benblamey" 
+         file="/benblamey/src/benblamey/saesneg/model/annotations/SingleDayTimeDensity.java" binary="false" 
+         corner="BOTTOM_RIGHT">    
+        <position height="155" width="196" x="771" y="265"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+             sort-features="false" accessors="true" visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="5" language="java" name="edu.stanford.nlp.time.distributed.PdfTime" project="benblamey" 
+         file="C:/work/code/3rd_Ben/stanford_nlp/target/classes/edu/stanford/nlp/time/distributed/PdfTime.class" 
+         binary="true" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="395" y="104"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+             sort-features="false" accessors="true" visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <generalization id="6">    
+        <end type="SOURCE" refId="2"/>    
+        <end type="TARGET" refId="1"/>  
+    </generalization>  
+    <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+                      sort-features="false" accessors="true" visibility="true">    
+        <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+        <operations public="true" package="true" protected="true" private="true" static="true"/>  
+    </classifier-display>  
+    <association-display labels="true" multiplicity="true"/>
+</class-diagram>

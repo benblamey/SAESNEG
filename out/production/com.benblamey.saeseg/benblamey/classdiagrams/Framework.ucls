@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+               associations="true" dependencies="false" nesting-relationships="true">  
+    <class id="1" language="java" name="benblamey.saesneg.Pipeline" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/Pipeline.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1709" y="1297"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="2" language="java" name="benblamey.saesneg.PipelineContext" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/PipelineContext.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="881" y="170"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="3" language="java" name="benblamey.saesneg.model.datums.Datum" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/Datum.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1171" y="1239"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="4" language="java" name="benblamey.saesneg.model.datums.DatumCheckin" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/DatumCheckin.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1130" y="1972"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="5" language="java" name="benblamey.saesneg.model.datums.DatumStatusMessage" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/DatumStatusMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="718" y="1281"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="6" language="java" name="benblamey.saesneg.model.datums.DatumAlbum" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/DatumAlbum.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="757" y="1943"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="7" language="java" name="benblamey.saesneg.model.datums.DatumCollection" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/DatumCollection.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1012" y="609"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="8" language="java" name="benblamey.saesneg.model.datums.DatumEvent" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/DatumEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="714" y="979"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="9" language="java" name="benblamey.saesneg.model.datums.DatumPhoto" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/datums/DatumPhoto.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="732" y="1593"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="10" language="java" name="benblamey.saesneg.model.UserContext" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/UserContext.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1723" y="780"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="11" language="java" name="benblamey.saesneg.model.Event" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/Event.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1383" y="622"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="12" language="java" name="benblamey.saesneg.model.LifeStory" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/model/LifeStory.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="1215" y="230"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="13" language="java" name="benblamey.saesneg.serialization.LifeStoryJsonSerializer" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/serialization/LifeStoryJsonSerializer.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="149" y="1530"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="14" language="java" name="benblamey.saesneg.serialization.LifeStoryInfo" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/serialization/LifeStoryInfo.java" binary="false" corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="135" y="1282"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <class id="15" language="java" name="benblamey.saesneg.serialization.LifeStoryXMLSerializer" project="benblamey" 
+           file="/benblamey/src/benblamey/saesneg/serialization/LifeStoryXMLSerializer.java" binary="false" 
+           corner="BOTTOM_RIGHT">    
+        <position height="-1" width="-1" x="137" y="1032"/>    
+        <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+                 visibility="true">      
+            <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+            <operations public="true" package="true" protected="true" private="true" static="true"/>    
+        </display>  
+    </class>  
+    <association id="16">    
+        <end type="SOURCE" refId="11" navigable="false">      
+            <attribute id="17" name="_objects"/>      
+            <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+        </end>    
+        <end type="TARGET" refId="3" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="19">    
+        <end type="SOURCE" refId="9" navigable="false">      
+            <attribute id="20" name="_album"/>      
+            <multiplicity id="21" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="6" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="22">    
+        <end type="SOURCE" refId="12" navigable="false">      
+            <attribute id="23" name="EventsComputed"/>      
+            <multiplicity id="24" minimum="0" maximum="2147483647"/>    
+        </end>    
+        <end type="TARGET" refId="11" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="25">    
+        <bendpoint x="1522" y="431"/>    
+        <end type="SOURCE" refId="10" navigable="false">      
+            <attribute id="26" name="_defaultLifeStory"/>      
+            <multiplicity id="27" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="12" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="28">    
+        <end type="SOURCE" refId="3" navigable="false">      
+            <attribute id="29" name="_user"/>      
+            <multiplicity id="30" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="10" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="31">    
+        <end type="SOURCE" refId="1" navigable="false">      
+            <attribute id="32" name="_user"/>      
+            <multiplicity id="33" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="10" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <generalization id="34">    
+        <end type="SOURCE" refId="5"/>    
+        <end type="TARGET" refId="3"/>  
+    </generalization>  
+    <generalization id="35">    
+        <end type="SOURCE" refId="8"/>    
+        <end type="TARGET" refId="3"/>  
+    </generalization>  
+    <association id="36">    
+        <end type="SOURCE" refId="2" navigable="false">      
+            <attribute id="37" name="_current"/>      
+            <multiplicity id="38" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="2" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <association id="39">    
+        <end type="SOURCE" refId="7" navigable="false">      
+            <attribute id="40" name="_map"/>      
+            <multiplicity id="41" minimum="0" maximum="2147483647"/>    
+        </end>    
+        <end type="TARGET" refId="3" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <generalization id="42">    
+        <end type="SOURCE" refId="9"/>    
+        <end type="TARGET" refId="3"/>  
+    </generalization>  
+    <association id="43">    
+        <end type="SOURCE" refId="12" navigable="false">      
+            <attribute id="44" name="datums"/>      
+            <multiplicity id="45" minimum="0" maximum="1"/>    
+        </end>    
+        <end type="TARGET" refId="7" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <generalization id="46">    
+        <bendpoint x="937" y="1725"/>    
+        <end type="SOURCE" refId="6"/>    
+        <end type="TARGET" refId="3"/>  
+    </generalization>  
+    <association id="47">    
+        <end type="SOURCE" refId="12" navigable="false">      
+            <attribute id="48" name="EventsGolden"/>      
+            <multiplicity id="49" minimum="0" maximum="2147483647"/>    
+        </end>    
+        <end type="TARGET" refId="11" navigable="true"/>    
+        <display labels="true" multiplicity="true"/>  
+    </association>  
+    <generalization id="50">    
+        <end type="SOURCE" refId="4"/>    
+        <end type="TARGET" refId="3"/>  
+    </generalization>  
+    <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+                        accessors="true" visibility="true">    
+        <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+        <operations public="true" package="true" protected="true" private="true" static="true"/>  
+    </classifier-display>  
+    <association-display labels="true" multiplicity="true"/>
+</class-diagram>

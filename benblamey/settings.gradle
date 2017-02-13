@@ -1,0 +1,7 @@
+rootProject.name = 'com.benblamey.saesneg'
+
+
+
+include ':com.benblamey.core'
+project(':com.benblamey.core').projectDir = new File(settingsDir, '../../com.benblamey.core')
+

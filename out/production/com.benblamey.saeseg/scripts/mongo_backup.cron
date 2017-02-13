@@ -1,0 +1,4 @@
+# add to crontab or copy to /etc/cron* etc.
+
+# mongodb exports diagnostic output to console, discard this.
+0 5 * * 0,4  mongoexport --db SocialWorld --collection users 2> /dev/null | mail -s "MongoDB 'users' Backup" blamey.ben@gmail.com

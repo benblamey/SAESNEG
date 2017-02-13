@@ -9,7 +9,3 @@ To deploy to staging server:
 To deploy to benblamey.com:
 cg_sync_benblamey_acad.sh
 
-
-TODO
-====
-		

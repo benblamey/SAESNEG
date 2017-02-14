@@ -1,11 +1,3 @@
-BEN PHD JAVA (SAESNEG)
-=====================
+SAESNEG - System for the Automated Extraction of Social Network Event Groups
 
-To deploy to staging server:
-	1) Build benblamey.evaluation
-	2) Build SocialWorld
-	3) cg_sync_benblamey-staging_acad.sh
-
-To deploy to benblamey.com:
-cg_sync_benblamey_acad.sh
-
+See these here: http://benblamey.com/publications

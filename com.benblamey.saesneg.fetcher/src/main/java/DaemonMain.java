@@ -1,7 +1,8 @@
-package benblamey.saesneg;
-
 import benblamey.core.DateUtil;
 import benblamey.core.Email;
+import benblamey.saesneg.Fetcher;
+import benblamey.saesneg.PipelineContext;
+import benblamey.saesneg.Users;
 import benblamey.saesneg.model.LifeStory;
 import benblamey.saesneg.model.UserContext;
 import benblamey.saesneg.serialization.LifeStoryInfo;
@@ -13,12 +14,13 @@ import com.benblamey.core.logging.LoggerLevel;
 import com.benblamey.core.logging.PlainTextLogger;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
+import org.joda.time.DateTime;
+import socialworld.model.SocialWorldUser;
+
+import javax.mail.MessagingException;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import javax.mail.MessagingException;
-import org.joda.time.DateTime;
-import socialworld.model.SocialWorldUser;
 
 /**
  * The main class for the fetcher daemon service running on the remote server.
@@ -46,7 +48,7 @@ public class DaemonMain {
 
         try {
             _logger.debug("Daemon started at " + DateTime.now().toString());
-            
+
             // If there is a command line argument, assume it is a name.
             final Iterable<BasicDBObject> users;
             if (args.length == 1) {
@@ -102,7 +104,7 @@ public class DaemonMain {
 
                 if (FORCE_DAEMON_FETCHER) {
                     // Force a run.
-                    _logger.info("Running - forced.");  
+                    _logger.info("Running - forced.");
                     run = true;
                 } else if (lifeStoryInfos.size() == 0) {
                     // We haven't fetched any data for this user.
@@ -120,7 +122,7 @@ public class DaemonMain {
                     _logger.info("Latest info is: " + latestInfo.getSummary());
 
                     if (latestInfo.version < CURRENT_VERSION) {
-                        // If new code has been uploaded since the lifestory was created (and we're not currently working on it), 
+                        // If new code has been uploaded since the lifestory was created (and we're not currently working on it),
                         // and the code is newer than the latest lifestory, run again.
                         // This is regardless of whether it succeeded last time or not.
                         _logger.info("Running - new code.");
@@ -136,7 +138,7 @@ public class DaemonMain {
                 if (run) {
                     run(user);
                 }
-                    
+
                 if (run) {
                     break;
                 }
@@ -155,7 +157,7 @@ public class DaemonMain {
             body += "Exception:";
 
             // As a last resort - catch all the exceptions here
-            // - lots of "unlikely" exceptions are thrown as RuntimeExceptions - these are caught here. 
+            // - lots of "unlikely" exceptions are thrown as RuntimeExceptions - these are caught here.
             // - we want super-detailed trace  - don't rely on Java's implementation.
             body += ExceptionHandler.getDetailedExceptionSummary(e);
 
@@ -188,7 +190,7 @@ public class DaemonMain {
 
         LifeStoryInfo info = new LifeStoryInfo();
         info.created = DateTime.now();
-        //info.filename = 
+        //info.filename =
         info.source = LIFE_STORY_INFO_SOURCE;
         info.note = "";
         info.version = CURRENT_VERSION;
@@ -277,7 +279,7 @@ public class DaemonMain {
             body += "Cardiff Metropolitan University, Llandaff Campus, Western Avenue, Cardiff, CF5 2YB\n";
             body += "ben@benblamey.com\n";
             String subject = "Create your life story!";
-            
+
             Email.send(userEmail, subject, body, "Ben Blamey");
             _logger.log(LoggerLevel.INFORMATION, "Sent invite email to: " + userEmail);
         } else {

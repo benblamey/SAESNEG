@@ -8,6 +8,8 @@ import benblamey.saesneg.model.datums.Datum;
 import benblamey.saesneg.model.datums.DatumCollection;
 import benblamey.saesneg.model.datums.DatumEvent;
 import benblamey.saesneg.model.datums.DatumPhoto;
+import com.benblamey.core.logging.Logger;
+import com.benblamey.core.logging.PlainTextLogger;
 import com.restfb.Connection;
 import com.restfb.DefaultFacebookClient;
 import com.restfb.DefaultJsonMapper;
@@ -15,9 +17,10 @@ import com.restfb.DefaultWebRequestor;
 import com.restfb.FacebookClient;
 import com.restfb.Parameter;
 import com.restfb.types.FacebookType;
+import org.joda.time.DateTime;
+
 import java.util.ArrayList;
 import java.util.List;
-import org.joda.time.DateTime;
 
 /**
  * Various helper methods for using the FacebookClient class.
@@ -27,7 +30,10 @@ import org.joda.time.DateTime;
  */
 public class FacebookClientHelper<T> {
 
-    static private abstract class MinedFacebookObjectFactory {
+  private static Logger _logger = new PlainTextLogger(System.out);
+
+
+  static private abstract class MinedFacebookObjectFactory {
 
         abstract Datum CreateDatum(UserContext uc, FacebookType obj);
         String userConnection;
@@ -43,7 +49,7 @@ public class FacebookClientHelper<T> {
             // applications/developer
             // apprequests
             // books
-            
+
             // CHECKINs is deprecated for versions >=v2.0
 //            add(new MinedFacebookObjectFactory() {
 //                @Override
@@ -56,7 +62,7 @@ public class FacebookClientHelper<T> {
 //                    FacebookType = com.restfb.types.Checkin.class;
 //                }
 //            });
-            
+
             add(new MinedFacebookObjectFactory() { // The events this user is attending.
                 @Override
                 public Datum CreateDatum(UserContext uc, FacebookType obj) {
@@ -150,11 +156,11 @@ public class FacebookClientHelper<T> {
             // videos.
         }
     };
-    
+
     public final FacebookClient _facebookClient;
     private final UserContext _userContext;
-    
-    
+
+
 
     public FacebookClientHelper(UserContext uc) {
         _userContext = uc;
@@ -170,7 +176,7 @@ public class FacebookClientHelper<T> {
     public void getObjects(DatumCollection data, String person) {
 
         for (MinedFacebookObjectFactory thing : thingsToGet) {
-            DaemonMain._logger.debug("Fetching " + thing.userConnection + "...");
+            _logger.debug("Fetching " + thing.userConnection + "...");
 
             String path = person + "/" + thing.userConnection;
 
@@ -196,7 +202,7 @@ public class FacebookClientHelper<T> {
         }
     }
 
-    public List<FacebookType> getConnectionWithDateRange(String path, Class<? extends FacebookType> type, 
+    public List<FacebookType> getConnectionWithDateRange(String path, Class<? extends FacebookType> type,
             DateTime since, DateTime until, String fields) {
         ArrayList<FacebookType> results = new ArrayList<>();
 
@@ -208,14 +214,14 @@ public class FacebookClientHelper<T> {
         if (until != null) {
             p.add(Parameter.with("until", DateUtil.DateTimeToUnixTime(until)));
         }
-        if (fields != null) 
+        if (fields != null)
         {
             p.add(Parameter.with("fields", fields));
         }
 
         p.add(Parameter.with("since", DateUtil.DateTimeToUnixTime(DateTime.now().minusMonths(12*6)))); // Facebook is expecting a unix timestamp.
 
-        Connection<? extends FacebookType> fetchConnection = _facebookClient.fetchConnection(path, type, 
+        Connection<? extends FacebookType> fetchConnection = _facebookClient.fetchConnection(path, type,
             p.toArray(new Parameter[p.size()]));
         results.addAll(fetchConnection.getData());
 
@@ -238,7 +244,7 @@ public class FacebookClientHelper<T> {
     public static <T> List<T> getAllFromConnection(Connection<T> fetchConnection) {
         List<T> all = new ArrayList<>();
         for (List<T> items : fetchConnection) {
-            DaemonMain._logger.debug("\tFetching items..");
+            _logger.debug("\tFetching items..");
             all.addAll(items);
         }
         return all;

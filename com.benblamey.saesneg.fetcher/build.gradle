@@ -1,0 +1,19 @@
+group 'benblamey'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+
+  compile project(':com.benblamey.core')
+  compile project(':com.benblamey.saesneg')
+
+
+  testCompile group: 'junit', name: 'junit', version: '4.11'
+}

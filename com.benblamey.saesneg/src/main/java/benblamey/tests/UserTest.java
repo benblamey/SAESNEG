@@ -1,4 +1,4 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
 import com.restfb.DefaultFacebookClient;
 import com.restfb.types.User;

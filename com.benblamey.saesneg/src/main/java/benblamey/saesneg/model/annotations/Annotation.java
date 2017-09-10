@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
 public class Annotation {
 
@@ -23,5 +23,5 @@ public class Annotation {
         return this.getClass().getSimpleName() + ", from:" + SourceDataKind + " text: "+_originalText;
     }
 
-    
+
 }

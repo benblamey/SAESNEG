@@ -1,4 +1,4 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
 public class GSONTestClass {
 

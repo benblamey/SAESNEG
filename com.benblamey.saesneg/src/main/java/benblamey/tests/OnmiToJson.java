@@ -1,4 +1,4 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
 import org.junit.Test;
 

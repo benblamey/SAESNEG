@@ -1,9 +1,9 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
-import benblamey.core.MongoClientInstance;
-import benblamey.saesneg.PipelineContext;
-import benblamey.saesneg.model.PartialEvent;
-import benblamey.saesneg.serialization.LifeStoryJsonSerializer;
+import com.benblamey.core.MongoClientInstance;
+import com.benblamey.saesneg.PipelineContext;
+import com.benblamey.saesneg.model.PartialEvent;
+import com.benblamey.saesneg.serialization.LifeStoryJsonSerializer;
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;

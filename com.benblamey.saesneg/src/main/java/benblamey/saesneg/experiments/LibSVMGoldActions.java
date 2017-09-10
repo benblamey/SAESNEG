@@ -1,4 +1,4 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
 public enum LibSVMGoldActions {
 

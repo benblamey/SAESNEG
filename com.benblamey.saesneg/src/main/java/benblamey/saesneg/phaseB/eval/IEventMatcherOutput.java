@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseB.eval;
+package com.benblamey.saesneg.phaseB.eval;
 
-import benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.Event;
 import java.io.IOException;
 
 public interface IEventMatcherOutput {

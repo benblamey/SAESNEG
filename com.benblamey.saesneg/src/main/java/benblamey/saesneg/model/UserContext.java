@@ -1,7 +1,7 @@
-package benblamey.saesneg.model;
+package com.benblamey.saesneg.model;
 
-import benblamey.saesneg.FacebookClientHelper;
-import benblamey.saesneg.PipelineContext;
+import com.benblamey.saesneg.FacebookClientHelper;
+import com.benblamey.saesneg.PipelineContext;
 import com.mongodb.DBObject;
 import com.restfb.exception.FacebookNetworkException;
 import com.restfb.exception.FacebookOAuthException;
@@ -59,7 +59,7 @@ public class UserContext {
         if (obj == null) {
             throw new RuntimeException("obj is null");
         }
-              
+
         UserContext uc = new UserContext();
         String id = (String) obj.get(SocialWorldUser.FACEBOOK_USER_ID);
         uc._name = SocialWorldUser.getName(obj);

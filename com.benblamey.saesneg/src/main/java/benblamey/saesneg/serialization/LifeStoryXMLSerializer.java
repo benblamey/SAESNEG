@@ -1,15 +1,15 @@
-package benblamey.saesneg.serialization;
+package com.benblamey.saesneg.serialization;
 
-import benblamey.core.DateUtil;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.datums.DatumAlbum;
-import benblamey.saesneg.model.datums.DatumCheckin;
-import benblamey.saesneg.model.datums.DatumCollection;
-import benblamey.saesneg.model.datums.DatumEvent;
-import benblamey.saesneg.model.datums.DatumLink;
-import benblamey.saesneg.model.datums.DatumPhoto;
-import benblamey.saesneg.model.datums.DatumStatusMessage;
+import com.benblamey.core.DateUtil;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.datums.DatumAlbum;
+import com.benblamey.saesneg.model.datums.DatumCheckin;
+import com.benblamey.saesneg.model.datums.DatumCollection;
+import com.benblamey.saesneg.model.datums.DatumEvent;
+import com.benblamey.saesneg.model.datums.DatumLink;
+import com.benblamey.saesneg.model.datums.DatumPhoto;
+import com.benblamey.saesneg.model.datums.DatumStatusMessage;
 import com.benblamey.core.SystemArchitecture;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.StaxDriver;
@@ -62,15 +62,15 @@ public class LifeStoryXMLSerializer {
                 + ".xml";
         return path;
     }
-    
+
     // "Keep a configured XStream instance for multiple usage. Creation and initialization is quite expensive compared to the overhead of XStream when calling marshall or unmarshal."
     // http://xstream.codehaus.org/faq.html
     private static XStream xstream;
-    
+
     static {
-        
+
        xstream = new XStream(new StaxDriver());
-        
+
                 // Need to configure XStream so that it copes with the various refactorings.
         xstream.alias("benblamey.experiments.pipeline.model.MinedObjectCollection", DatumCollection.class);
 
@@ -86,18 +86,18 @@ public class LifeStoryXMLSerializer {
         xstream.aliasPackage("benblamey.experiments.pipeline", "benblamey.saesneg");
 
         xstream.aliasField("facebookObjects", LifeStory.class, "datums");
-        
+
         // Turn off security.
         xstream.addPermission(AnyTypePermission.ANY);
-        
+
         //xstream.allowTypesByWildcard("benblamey.**");
 
         //Converter lookupConverterForType = xstream.getConverterLookup().lookupConverterForType(DatumPhoto.class);
         //System.out.println(lookupConverterForType.toString());
-        
+
         //DefaultConverterLookup.lookupConverterForType(DatumPhoto.class);
     }
-    
+
 
     public static LifeStory DeserializeLifeStory(String fileName, UserContext user) {
         if (fileName == null) {
@@ -105,8 +105,8 @@ public class LifeStoryXMLSerializer {
         }
         String path = getXMLDirectoryWithTrailingSlash() + fileName;
 
-        
-        
+
+
         System.out.println("Deserializing life story: " + path);
         LifeStory story = (LifeStory) xstream.fromXML(new File(path));
 

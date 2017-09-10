@@ -1,7 +1,7 @@
 package socialworld.model;
 
-import benblamey.core.DateUtil;
-import benblamey.core.MongoClientInstance;
+import com.benblamey.core.DateUtil;
+import com.benblamey.core.MongoClientInstance;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -16,9 +16,9 @@ import java.util.Calendar;
 
 /**
  * Information about the user as stored in the Mongo database. Please use constants (either below or in calling code) wherever possible as keys.
- * 
+ *
  * @author Ben
- * 
+ *
  */
 public class SocialWorldUser {
 
@@ -61,7 +61,7 @@ public class SocialWorldUser {
                 return (obj.get("FACEBOOK_FIRST_NAME") + " " + obj.get("FACEBOOK_LAST_NAME"));
             }
         }
-    
+
     	public String getPrettyName() {
 		return getName(this._obj);
 	}
@@ -83,15 +83,15 @@ public class SocialWorldUser {
 			return new SocialWorldUser(facebookID, true); // Allow add, we trust the CAS.
 		}
 	}
-        
+
 	public SocialWorldUser(DBObject obj) {
             this((String) obj.get(FACEBOOK_USER_ID), false); // Don't allow add.
 	}
-	
+
 	public SocialWorldUser(String facebookUserID) {
             this(facebookUserID, true);
 	}
-        
+
         public SocialWorldUser(DBObject obj, boolean readonly) {
 		if (readonly) {
                         _readonly = true;
@@ -99,7 +99,7 @@ public class SocialWorldUser {
 		} else {
 			throw new RuntimeException("This ctor for readonly only.");
 		}
-		
+
 	}
 
 	// Main ctor.
@@ -175,7 +175,7 @@ public class SocialWorldUser {
 		 	return _obj.get(key);
 		} else {
 			BasicDBObject fb_user_query = new BasicDBObject(FACEBOOK_USER_ID, _facebookUserID);
-	
+
 			DBCollection users = getDB();
 			DBObject user = users.findOne(fb_user_query);
 			Object result = user.get(key);
@@ -187,7 +187,7 @@ public class SocialWorldUser {
 		if (_readonly) {
 			throw new RuntimeException("readonly!");
 		}
-		
+
 		BasicDBObject fb_user_query = new BasicDBObject(FACEBOOK_USER_ID, _facebookUserID);
 
 		DBCollection users = getDB();
@@ -199,7 +199,7 @@ public class SocialWorldUser {
 		if (_readonly) {
 			throw new RuntimeException("readonly!");
 		}
-		
+
 		BasicDBObject fb_user_query = new BasicDBObject(FACEBOOK_USER_ID, _facebookUserID);
 
 		DBCollection users = getDB();

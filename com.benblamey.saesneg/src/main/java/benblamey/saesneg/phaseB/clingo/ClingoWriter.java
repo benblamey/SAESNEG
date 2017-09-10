@@ -1,4 +1,4 @@
-//package benblamey.saesneg.phaseB.clingo;
+//package com.benblamey.saesneg.phaseB.clingo;
 //
 //import java.io.BufferedWriter;
 //import java.io.FileWriter;
@@ -8,9 +8,9 @@
 //
 //import org.joda.time.DateTime;
 //
-//import benblamey.saesneg.model.UserContext;
-//import benblamey.saesneg.model.annotations.TemporalAnnotation;
-//import benblamey.saesneg.model.datums.Datum;
+//import com.benblamey.saesneg.model.UserContext;
+//import com.benblamey.saesneg.model.annotations.TemporalAnnotation;
+//import com.benblamey.saesneg.model.datums.Datum;
 //import clingowrapper.ParseException;
 //import edu.stanford.nlp.time.distributed.TimeDensityFunction;
 //

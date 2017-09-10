@@ -1,4 +1,4 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
 /**
  * Options for the OSM search.

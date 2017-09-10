@@ -1,9 +1,9 @@
-package benblamey.nominatim.tests;
+package com.benblamey.nominatim.tests;
 
-import benblamey.nominatim.OpenStreetMapElementKind;
-import benblamey.nominatim.OpenStreetMapSearch;
-import benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
-import benblamey.nominatim.OpenStreetMapSearchResult;
+import com.benblamey.nominatim.OpenStreetMapElementKind;
+import com.benblamey.nominatim.OpenStreetMapSearch;
+import com.benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
+import com.benblamey.nominatim.OpenStreetMapSearchResult;
 import java.sql.SQLException;
 import java.util.Collection;
 import java.util.List;

@@ -1,11 +1,11 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
-import benblamey.saesneg.Users;
-import benblamey.saesneg.experiments.configs.UserIDs;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.serialization.LifeStoryInfo;
-import benblamey.saesneg.serialization.LifeStoryXMLSerializer;
+import com.benblamey.saesneg.Users;
+import com.benblamey.saesneg.experiments.configs.UserIDs;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.serialization.LifeStoryInfo;
+import com.benblamey.saesneg.serialization.LifeStoryXMLSerializer;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
 import com.benblamey.core.onmi.onmi;
 import java.io.IOException;

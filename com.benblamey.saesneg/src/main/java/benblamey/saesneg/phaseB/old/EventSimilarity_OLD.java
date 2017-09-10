@@ -1,10 +1,10 @@
-package benblamey.saesneg.phaseB.old;
+package com.benblamey.saesneg.phaseB.old;
 
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.annotations.PersonAnnotation;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseA.image.ImageFeatureExtractor;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.annotations.PersonAnnotation;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseA.image.ImageFeatureExtractor;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.HashSet;
@@ -65,8 +65,8 @@ public class EventSimilarity_OLD {
 //            if (i_obj instanceof MinedPhoto) {
 //                MinedPhoto i_photo = (MinedPhoto)i_obj;
 //                if (j_obj instanceof MinedPhoto) {
-//                    MinedPhoto j_photo = (MinedPhoto)j_obj;    
-//                    
+//                    MinedPhoto j_photo = (MinedPhoto)j_obj;
+//
 //                    // Same album.
 //                    MinedAlbum i_album = i_photo.getAlbum();
 //                    MinedAlbum j_album = j_photo.getAlbum();
@@ -75,7 +75,7 @@ public class EventSimilarity_OLD {
 //                            //edgeWeight += 1;
 //                        }
 //                    }
-//                    
+//
 //                    Map<String, Float> similarity = _mi.GetSimilarity(i_photo._photo.getSource(),
 //                            j_photo._photo.getSource());
 //
@@ -84,23 +84,23 @@ public class EventSimilarity_OLD {
 //                    {
 //                        sims++;
 //                    }
-//                    
+//
 //                    if (similarity.get(Main_Images.EdgeHistogram) < 200)
 //                    {
 //                        sims++;
 //                    }
-//                    
+//
 //                    if (similarity.get(Main_Images.ScalableColor) < 200)
 //                    {
 //                        sims++;
 //                    }
-//                    
+//
 //                    if (sims > 2 ) {
 //                        edgeWeight += 1;
 //                    }
-//                          
-//        
-//                    
+//
+//
+//
 //                }
 //            }
 //        }

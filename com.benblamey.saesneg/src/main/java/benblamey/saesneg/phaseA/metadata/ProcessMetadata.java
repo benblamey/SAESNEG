@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseA.metadata;
+package com.benblamey.saesneg.phaseA.metadata;
 
-import benblamey.saesneg.model.datums.DatumCollection;
+import com.benblamey.saesneg.model.datums.DatumCollection;
 import java.io.IOException;
 import java.net.URISyntaxException;
 

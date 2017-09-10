@@ -1,14 +1,14 @@
-package benblamey.saesneg.model.datums;
+package com.benblamey.saesneg.model.datums;
 
-import benblamey.core.DateUtil;
-import benblamey.saesneg.evaluation.DatumWebProperty;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.annotations.DataKind;
-import benblamey.saesneg.model.annotations.PersonAnnotation;
-import benblamey.saesneg.model.annotations.SingleDayTimeDensity;
-import benblamey.saesneg.model.annotations.TemporalAnnotation;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
+import com.benblamey.core.DateUtil;
+import com.benblamey.saesneg.evaluation.DatumWebProperty;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.annotations.DataKind;
+import com.benblamey.saesneg.model.annotations.PersonAnnotation;
+import com.benblamey.saesneg.model.annotations.SingleDayTimeDensity;
+import com.benblamey.saesneg.model.annotations.TemporalAnnotation;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
 import com.restfb.types.NamedFacebookType;
 import com.restfb.types.StatusMessage;
 import gate.util.InvalidOffsetException;

@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseB;
+package com.benblamey.saesneg.phaseB;
 
-import benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.datums.Datum;
 import com.benblamey.core.classifier.svm.SvmClassificationProbResult;
 import com.benblamey.core.classifier.svm.SvmFile;
 import java.io.IOException;
@@ -38,7 +38,7 @@ public class DatumPairSimilarity {
         }
 
     }
-    
+
     /**
      * Generates a canonical label which can be used as a key for uniquqly identifying keys storing and pairs.
      */
@@ -48,7 +48,7 @@ public class DatumPairSimilarity {
         }
         Long left = a.getNetworkID();
         Long right  = b.getNetworkID();
-        
+
         // Swap as necessary
         if (right > left)
         {
@@ -56,14 +56,14 @@ public class DatumPairSimilarity {
             left = right;
             right = t;
         }
-        
+
         return left + "_" + right;
     }
 
     /**
      * Generates a canonical label which can be used as a key for uniquqly identifying keys storing and pairs.
      * @param pair
-     * @return 
+     * @return
      */
     public static String getCanonicalLabel(DatumPairSimilarity pair) {
         return getCanonicalLabel(pair.getLeft(), pair.getRight());

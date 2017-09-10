@@ -1,6 +1,6 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
-import benblamey.core.GATE.GateUtils2;
+import com.benblamey.core.GATE.GateUtils2;
 import gate.Document;
 import gate.util.GateException;
 import java.io.FileNotFoundException;

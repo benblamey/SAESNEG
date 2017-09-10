@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.text.nerpaper;
+package com.benblamey.saesneg.phaseA.text.nerpaper;
 
 import gate.AnnotationSet;
 import gate.Document;
@@ -145,7 +145,7 @@ public class GoldLabelling {
 
             add("martin");
             add("hannah");
-            add("halliwell"); // Spice Girl and Bolton area. 
+            add("halliwell"); // Spice Girl and Bolton area.
         }
     };
 

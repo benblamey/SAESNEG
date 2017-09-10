@@ -1,6 +1,6 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
-import benblamey.saesneg.model.annotations.LocationAnnotation;
+import com.benblamey.saesneg.model.annotations.LocationAnnotation;
 import com.mongodb.util.JSON;
 import java.sql.ResultSet;
 import java.sql.SQLException;

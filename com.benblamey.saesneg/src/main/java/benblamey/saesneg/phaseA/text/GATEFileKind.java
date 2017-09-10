@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.text;
+package com.benblamey.saesneg.phaseA.text;
 
 public enum GATEFileKind {
 

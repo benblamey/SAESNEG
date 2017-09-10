@@ -1,8 +1,8 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -21,8 +21,8 @@ public class PairwiseClusteringEvaluation {
         int pairIntraIncorrect = 0;
         int pairInterCorrect = 0;
         int pairInterIncorrect = 0;
-        
-        
+
+
         for (DatumPairSimilarity pair : user.getLifeStory().goldenPairs) {
 
             if ((pair.classificationResult.mostLikelyClass != DatumPairSimilarity.SVM_CLASS_DIFFERENT_EVENT)
@@ -53,16 +53,16 @@ public class PairwiseClusteringEvaluation {
                         throw new RuntimeException("classification result invalid");
                 }
             }
-        }            
+        }
 
         double accuracy = ((double) (pairInterCorrect + pairIntraCorrect)) / (pairInterCorrect + pairInterIncorrect + pairIntraCorrect + pairIntraIncorrect);
-        
+
         Map<String, Integer> userPairwiseResults = new HashMap<>();
         userPairwiseResults.put("pairInterCorrect", pairInterCorrect);
         userPairwiseResults.put("pairInterIncorrect", pairInterIncorrect);
         userPairwiseResults.put("pairIntraCorrect", pairIntraCorrect);
         userPairwiseResults.put("pairIntraIncorrect", pairIntraIncorrect);
-        
+
         _experiment.Results.PairwiseResults.put(user.ID,userPairwiseResults);
 
         _experiment.LogFile.println(user.getName());

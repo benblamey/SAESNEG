@@ -1,7 +1,7 @@
-package benblamey.nominatim.tests;
+package com.benblamey.nominatim.tests;
 
-import benblamey.core.GATE.GateUtils2;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentReader;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentReader;
 import gate.AnnotationSet;
 import gate.Document;
 import gate.util.GateException;

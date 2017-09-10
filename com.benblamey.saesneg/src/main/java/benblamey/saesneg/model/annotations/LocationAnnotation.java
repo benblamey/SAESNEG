@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
 import com.restfb.types.Location;
 
@@ -11,10 +11,10 @@ public class LocationAnnotation extends Annotation {
     }
 
     public LocationAnnotation(Location fbLocation, String originatingField, DataKind sourceDataKind) {
-        _latitude = fbLocation.getLatitude();        
+        _latitude = fbLocation.getLatitude();
         _longitude = fbLocation.getLongitude();
         Level = 11; // Use n'hood level for Facebook places, things like streets.
-        
+
         this.Note += fbLocation.toString() + "\n";
         this.Note += "From FB Location. originating field: " + originatingField;
         this.SourceDataKind = sourceDataKind;
@@ -36,7 +36,7 @@ public class LocationAnnotation extends Annotation {
     public void setLon(double lon) {
         _longitude = lon;
     }
-    
+
     public int Level;
 
     @Override
@@ -44,6 +44,6 @@ public class LocationAnnotation extends Annotation {
         return super.toString() + " lat:" + String.format("%.2f",_latitude) + " lon:" + String.format("%.2f",_longitude);
     }
 
-    
-            
+
+
 }

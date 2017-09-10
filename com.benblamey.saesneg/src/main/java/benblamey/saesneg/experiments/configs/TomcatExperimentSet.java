@@ -1,10 +1,10 @@
-package benblamey.saesneg.experiments.configs;
+package com.benblamey.saesneg.experiments.configs;
 
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.experiments.ExperimentSet;
-import benblamey.saesneg.experiments.LifeStorySelectionStrategy;
-import benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.experiments.ExperimentSet;
+import com.benblamey.saesneg.experiments.LifeStorySelectionStrategy;
+import com.benblamey.saesneg.phaseA.text.ProcessTextOptions;
 
 public class TomcatExperimentSet {
 
@@ -24,9 +24,9 @@ public class TomcatExperimentSet {
                     //USE_CACHED_GATE_DOC = true;
                 }
             };
-            
+
             runPhaseAMetadata = true;
-            
+
             PhaseBOptions = null;
 //            new PhaseBOptions() {
 //                {
@@ -37,14 +37,14 @@ public class TomcatExperimentSet {
     };
 
     public static synchronized Experiment getExperiment() {
-        
+
 
 
         if (_exp == null) {
-            
+
                             ExperimentSet set = new ExperimentSet();
         set.name = "Thesis_Experiment_Set";
-            
+
             _exp = new Experiment(set) {
                 {
                     Name = "default";

@@ -1,4 +1,4 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
 import java.util.Properties;
 import org.apache.velocity.app.VelocityEngine;

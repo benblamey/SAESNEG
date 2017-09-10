@@ -1,4 +1,4 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
 /**
  * Kinds of elements in Nominatim - @see
@@ -12,7 +12,7 @@ public enum OpenStreetMapElementKind {
     Way,
     Relation,
     /*
-	 * Generated automatically by the Nominatim import process. 
+	 * Generated automatically by the Nominatim import process.
      */
     PostCode,
     DontKnow,

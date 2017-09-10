@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.serialization.LifeStoryJsonSerializer;
-import benblamey.saesneg.serialization.LifeStoryXMLSerializer;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.serialization.LifeStoryJsonSerializer;
+import com.benblamey.saesneg.serialization.LifeStoryXMLSerializer;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import java.io.File;
@@ -32,7 +32,7 @@ public class WhichLifeStoryToLoad {
 //                String filename = info.filename;
 //                if (foo(filename, uc, user)) continue;
 //            }
-//            
+//
             File dir = new File(LifeStoryXMLSerializer.getXMLDirectoryWithTrailingSlash());
             TreeSet<String> s = new TreeSet<>();
             for (File f : dir.listFiles()) {
@@ -45,7 +45,7 @@ public class WhichLifeStoryToLoad {
                     s.add(f.getName());
                 }
             }
-            
+
             for (String ss : s) {
                 foo(ss, uc, user);
             }
@@ -60,7 +60,7 @@ public class WhichLifeStoryToLoad {
         }
         System.out.println("Trying file: " + filename);
         LifeStory ls;
-        
+
         try {
             ls = LifeStoryXMLSerializer.DeserializeLifeStory(filename, uc);
         } catch (Exception e) {
@@ -68,7 +68,7 @@ public class WhichLifeStoryToLoad {
             return false;
         }
         LifeStoryJsonSerializer.getGroundTruthEvents(ls, user);
-        
+
         return false;
     }
 

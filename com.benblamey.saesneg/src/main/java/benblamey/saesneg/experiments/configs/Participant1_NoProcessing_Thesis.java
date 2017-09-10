@@ -1,16 +1,16 @@
-package benblamey.saesneg.experiments.configs;
+package com.benblamey.saesneg.experiments.configs;
 
-import benblamey.saesneg.ExperimentUserContext;
-import benblamey.saesneg.evaluation.DatumWebProperty;
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.experiments.ExperimentSet;
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.model.datums.DatumCheckin;
-import benblamey.saesneg.model.datums.DatumEvent;
-import benblamey.saesneg.model.datums.DatumPhoto;
-import benblamey.saesneg.model.datums.DatumStatusMessage;
+import com.benblamey.saesneg.ExperimentUserContext;
+import com.benblamey.saesneg.evaluation.DatumWebProperty;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.experiments.ExperimentSet;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.datums.DatumCheckin;
+import com.benblamey.saesneg.model.datums.DatumEvent;
+import com.benblamey.saesneg.model.datums.DatumPhoto;
+import com.benblamey.saesneg.model.datums.DatumStatusMessage;
 import com.mongodb.BasicDBObject;
 import com.mongodb.util.JSON;
 import java.io.BufferedReader;
@@ -34,7 +34,7 @@ public class Participant1_NoProcessing_Thesis {
     public static void main(String[] args) throws Exception {
 
         createParticipant1Appendix();
-        
+
         //getLocalImagePath("10100980662791070");
 
     }
@@ -77,7 +77,7 @@ public class Participant1_NoProcessing_Thesis {
         for (Event event : participant1.userContext.getLifeStory().EventsGolden) {
             if (event.getDatums().isEmpty()) continue;
             if (event.getUserEditableName().equals("Events I didn't attend")) continue; // dummy event, exclude.
-            
+
             writer.println("<div class=\"event\"/>");
             writer.println("<h2>Event "+i+"</h2>");
             writer.println("<!-- "+event.getUserEditableName()+" -->");
@@ -86,7 +86,7 @@ public class Participant1_NoProcessing_Thesis {
                 writer.println("<!-- "+d.getNetworkID()+" -->");
                 writer.println("<h3>"+ getFriendlyClassName(d) + "</h3>"); // \": \" + htmlEntities(d.getWebViewTitle()) + \"
                 writer.println("<p class=\"datum\">");
-                
+
                 if (d instanceof DatumPhoto) {
                     String imagePath = getLocalImagePath(d.getNetworkString());
                     if (imagePath != null) {
@@ -142,12 +142,12 @@ public class Participant1_NoProcessing_Thesis {
         if (!value.equals(newValue)) {
             newValue = newValue + "...";
         }
-        
+
         newValue = htmlEntities(newValue);
-        
-        
+
+
         //newValue = StringEscapeUtils.escapeHtml(newValue);
-        
+
         return newValue;
     }
 
@@ -171,7 +171,7 @@ public class Participant1_NoProcessing_Thesis {
     public static String getLocalImagePath(String networkID) throws IOException {
 
         final String dir = "C:\\work\\docs\\LATEX\\thesis\\images\\participant1_photos\\";
-        
+
         String pathIfExists = dir + networkID + ".jpg";
         String pathIfMissing = dir + networkID + ".MISSING";
         //String pathIfExists = dir + networkID + ".jpg";
@@ -180,28 +180,28 @@ public class Participant1_NoProcessing_Thesis {
             // Photo is marked as undownloadable -- skip.
             return null;
         }
-        
+
         if (!new File(pathIfExists).exists()) {
             // File does not exist, try to download it.
             String url = "https://graph.facebook.com/v2.5/" + networkID + "?access_token=" + PARTICIPANT_1_ACCESS_TOKEN + "&debug=all&fields=source&format=json&method=get&pretty=0&suppress_http_code=1";
             BasicDBObject result = (BasicDBObject)getJSON(url);
             String sourceUrl = result.getString("source");
-            
+
             if (sourceUrl == null) {
                 // The source URL could not be found, makr the file as undownloadable and skip.
                 FileUtils.touch(new File(pathIfMissing));
                 return null;
             }
-            
+
             getImage(sourceUrl, pathIfExists);
         }
-        
+
         if (new File(pathIfExists).exists()) {
             return networkID+".jpg";
         } else {
             return null;
         }
-        
+
     }
 
     public static Object getJSON(String urlstr) throws IOException {
@@ -220,7 +220,7 @@ public class Participant1_NoProcessing_Thesis {
 
         return parse;
     }
-    
+
     public static void getImage(String urlstr, String filename) throws IOException {
         URL url = new URL(urlstr);
         InputStream br = url.openConnection().getInputStream();

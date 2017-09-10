@@ -1,8 +1,8 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
-import benblamey.core.MongoClientInstance;
-import benblamey.core.json.JavaToJson;
-import benblamey.saesneg.PipelineContext;
+import com.benblamey.core.MongoClientInstance;
+import com.benblamey.core.json.JavaToJson;
+import com.benblamey.saesneg.PipelineContext;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
 import com.mongodb.util.JSON;
@@ -37,18 +37,18 @@ public class ExperimentSet implements IExperimentContainer {
     public ExperimentSet() {
         this("normal");
     }
-    
+
     public ExperimentSet(String info) {
         _startedTime = new Date();
         // Set this once when we start - we might be several days.
-        
+
         String hostname;
                 try {
                     hostname = InetAddress.getLocalHost().getHostName();
                 } catch (UnknownHostException e) {
                     throw new RuntimeException(e);
                 }
-        
+
         _outDirName = "C:\\work\\data\\output\\PHD_DATA\\" + new SimpleDateFormat("yyyy-MM-dd\\HH.mm.ss").format(_startedTime) + "_" + name + "_"  + hostname + "_" + info;
         //new File(_outDirName).mkdirs();
     }
@@ -81,9 +81,9 @@ public class ExperimentSet implements IExperimentContainer {
             out.append("===========================");
         }
         out.close();
-        
+
         IOUtils.writeStringToFileNoExceptions(generateResultsJson().toString(),
-                this.getOutputDirectoryWithTrailingSlash() + "clusteringResults.json", 
+                this.getOutputDirectoryWithTrailingSlash() + "clusteringResults.json",
                 "UTF-8");
     }
 

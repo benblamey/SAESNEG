@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.image;
+package com.benblamey.saesneg.phaseA.image;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -30,7 +30,7 @@ public class ReusableImageStream {
                 _stream = new BufferedInputStream(url.openConnection().getInputStream());
                 _stream.mark(Integer.MAX_VALUE);
             } catch (IOException ex) {
-                
+
                 throw new RuntimeException(ex);
             }
         }

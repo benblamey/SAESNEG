@@ -1,6 +1,6 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
-import benblamey.saesneg.phaseB.strategies.Strategy;
+import com.benblamey.saesneg.phaseB.strategies.Strategy;
 import java.util.HashSet;
 
 /**
@@ -46,8 +46,8 @@ public class PhaseBOptions {
      * Whether to compute the pairwise accuracy. Perhaps a poor measure.
      */
     public boolean computePairwiseAccuracy;
-    
+
     public HashSet<Class<?>> Strategies = Strategy.getStrategiesDefault();
-    
+
 
 }

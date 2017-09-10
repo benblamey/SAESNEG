@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.text.gatesubdocument;
+package com.benblamey.saesneg.phaseA.text.gatesubdocument;
 
 import gate.Document;
 import gate.Factory;

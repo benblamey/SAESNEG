@@ -1,7 +1,7 @@
-package benblamey.saesneg.phaseA.text;
+package com.benblamey.saesneg.phaseA.text;
 
-import benblamey.core.GATE.GateUtils2;
-import benblamey.saesneg.phaseA.text.nerpaper.GoldLabelling;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.saesneg.phaseA.text.nerpaper.GoldLabelling;
 import gate.AnnotationSet;
 import gate.Document;
 import gate.Factory;

@@ -1,4 +1,4 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

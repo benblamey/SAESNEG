@@ -1,6 +1,6 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
-import benblamey.core.GATE.GateUtils2;
+import com.benblamey.core.GATE.GateUtils2;
 
 public class InitGateTest {
 

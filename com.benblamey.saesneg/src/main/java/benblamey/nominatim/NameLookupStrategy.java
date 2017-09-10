@@ -1,4 +1,4 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
 /**
  * Various strategies for matching the search query against the tokens

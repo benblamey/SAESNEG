@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseB;
+package com.benblamey.saesneg.phaseB;
 
 public class DatumSimilarityEvidence {
 

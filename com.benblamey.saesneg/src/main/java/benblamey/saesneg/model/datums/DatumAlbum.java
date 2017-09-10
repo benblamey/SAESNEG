@@ -1,8 +1,8 @@
-package benblamey.saesneg.model.datums;
+package com.benblamey.saesneg.model.datums;
 
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
 import com.restfb.types.Album;
 import com.restfb.types.FacebookType;
 import com.restfb.types.NamedFacebookType;
@@ -46,9 +46,9 @@ public class DatumAlbum extends Datum {
     }
 
     ;
-	
+
     @Override
-    public void processMetadataFields(ExperimentOptions opt) throws IOException, URISyntaxException {        
+    public void processMetadataFields(ExperimentOptions opt) throws IOException, URISyntaxException {
         super.searchLocationMetadataField(_album.getLocation(), "location", opt);
 
     }

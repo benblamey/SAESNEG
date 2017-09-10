@@ -1,4 +1,4 @@
-package benblamey.eventparser;
+package com.benblamey.eventparser;
 
 /**
  * Options for the @see EventAnnotator

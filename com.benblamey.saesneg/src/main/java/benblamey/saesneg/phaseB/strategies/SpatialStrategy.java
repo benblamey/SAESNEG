@@ -1,11 +1,11 @@
-package benblamey.saesneg.phaseB.strategies;
+package com.benblamey.saesneg.phaseB.strategies;
 
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.model.annotations.LocationAnnotation;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
-import benblamey.saesneg.phaseB.DatumSimilarityEvidence;
-import benblamey.saesneg.phaseB.FestibusFeatures;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.model.annotations.LocationAnnotation;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.phaseB.DatumSimilarityEvidence;
+import com.benblamey.saesneg.phaseB.FestibusFeatures;
 import com.benblamey.core.GIS.Haversine;
 import java.util.ArrayList;
 import java.util.List;
@@ -29,11 +29,11 @@ public class SpatialStrategy extends Strategy {
         add(1.0);//14
         add(1.0);//15
     } };
-        
+
     // 'London' in one of the Scottish islands has an admin_level of 15.
     // http://www.openstreetmap.org/node/1338311783#map=7/59.135/-3.049
-    
-    
+
+
     @Override
     public void addEvidenceToPair(DatumPairSimilarity pair, PhaseBOptions options) {
 
@@ -45,34 +45,34 @@ public class SpatialStrategy extends Strategy {
 
         double minDistInMiles = Double.POSITIVE_INFINITY;
         String messageForEvidence = "";
-        
+
         for (LocationAnnotation leftLoc : leftLocations) {
             if (leftLoc == null) {
                 leftLoc.toString();
             }
-            
+
             for (LocationAnnotation rightLoc : rightLocations) {
-                
+
                 if (rightLoc == null) {
                     rightLoc.toString();
-                }    
-                
+                }
+
                 double foo = leftLoc.getLat()
                         + leftLoc.getLon()
-                        + rightLoc.getLat() 
+                        + rightLoc.getLat()
                         + rightLoc.getLon();
-                
+
                 double distInMiles = Haversine.distInMiles(leftLoc.getLat(), leftLoc.getLon(), rightLoc.getLat(), rightLoc.getLon());
-                
+
                 double minDistLeft =  osmAdminLevelToMinDist.get(leftLoc.Level-1);
                 double minDistRight =  osmAdminLevelToMinDist.get(rightLoc.Level-1);
-                
+
                 // Apply thresholding -- so that sim(UK,UK)!=0 miles.
                 distInMiles = Math.max(distInMiles, Math.min(minDistLeft, minDistRight));
-                
-                String message = "comparison: " + 
-                        leftLoc.toString() + " <> " + 
-                        rightLoc.toString() + " " + 
+
+                String message = "comparison: " +
+                        leftLoc.toString() + " <> " +
+                        rightLoc.toString() + " " +
                         String.format("%.0f", distInMiles)
                         + "miles apart.";
                 //System.out.println(message);
@@ -82,19 +82,19 @@ public class SpatialStrategy extends Strategy {
                 }
             }
         }
-        
+
         if (minDistInMiles < 1) {
             minDistInMiles = 1;
         }
-        
+
         if (minDistInMiles != Double.POSITIVE_INFINITY) {
             pair.addEvidence(new DatumSimilarityEvidence(FestibusFeatures.Spatial_SameLocation, 1.0/minDistInMiles, messageForEvidence));
         }
     }
-    
 
-        
-//                
+
+
+//
 //                boolean areEqual = false;
 //
 //                if (leftLoc instanceof GeoNamesPlace
@@ -140,6 +140,6 @@ public class SpatialStrategy extends Strategy {
 
 
 
-    
+
 
 }

@@ -1,7 +1,7 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
-import benblamey.core.DateUtil;
-import benblamey.saesneg.phaseA.image.ImageMetadataCache;
+import com.benblamey.core.DateUtil;
+import com.benblamey.saesneg.phaseA.image.ImageMetadataCache;
 import java.io.IOException;
 import junit.framework.Assert;
 import org.joda.time.DateTime;
@@ -58,12 +58,12 @@ public class ImageMetadataCacheTest {
 //		ReusableImageStream s = new ReusableImageStream(url);
 //		BufferedImage bufferedImage = ImageIO.read(s.getInputStream());
 //		 EdgeHistogramImplementation edgeHistogramImplementation = new EdgeHistogramImplementation(bufferedImage);
-//		 
+//
 //		 final String value = edgeHistogramImplementation.getStringRepresentation();
-//		 
+//
 //		 Assert.assertNotNull(value);
-//		 
-//		
+//
+//
 //		cache.put(imageID, key, value);
         Object object = cache.get(imageID, key);
 

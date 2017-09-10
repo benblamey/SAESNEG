@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.text;
+package com.benblamey.saesneg.phaseA.text;
 
 import gate.Annotation;
 import gate.AnnotationSet;
@@ -11,7 +11,7 @@ import gate.util.InvalidOffsetException;
 
 public class GateSubDocument {
 
-    public static final String ORIGINAL_OSN_AS = "Key"; // Magic name of AS that the Document Reset PR will leave intact. 
+    public static final String ORIGINAL_OSN_AS = "Key"; // Magic name of AS that the Document Reset PR will leave intact.
 
     //private String _text;
     private Long _startOffset;

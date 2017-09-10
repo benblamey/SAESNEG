@@ -1,27 +1,27 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
-import benblamey.core.DateUtil;
-import benblamey.core.GATE.GateUtils2;
-import benblamey.saesneg.ExperimentUserContext;
-import benblamey.saesneg.PipelineContext;
-import benblamey.saesneg.Users;
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.annotations.Annotation;
-import benblamey.saesneg.model.annotations.LocationAnnotation;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
-import benblamey.saesneg.phaseB.ClusteringStrategies;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
-import benblamey.saesneg.phaseB.DatumSimilarityEvidence;
-import benblamey.saesneg.phaseB.FestibusFeatures;
-import benblamey.saesneg.phaseB.SVMEdgeClassifier;
-import benblamey.saesneg.phaseB.strategies.SpatialStrategy;
-import benblamey.saesneg.review.PairwiseClusteringEvaluation;
-import benblamey.saesneg.serialization.LifeStoryInfo;
-import benblamey.saesneg.serialization.LifeStoryJsonSerializer;
-import benblamey.saesneg.serialization.LifeStoryXMLSerializer;
+import com.benblamey.core.DateUtil;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.saesneg.ExperimentUserContext;
+import com.benblamey.saesneg.PipelineContext;
+import com.benblamey.saesneg.Users;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.annotations.Annotation;
+import com.benblamey.saesneg.model.annotations.LocationAnnotation;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
+import com.benblamey.saesneg.phaseB.ClusteringStrategies;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.phaseB.DatumSimilarityEvidence;
+import com.benblamey.saesneg.phaseB.FestibusFeatures;
+import com.benblamey.saesneg.phaseB.SVMEdgeClassifier;
+import com.benblamey.saesneg.phaseB.strategies.SpatialStrategy;
+import com.benblamey.saesneg.review.PairwiseClusteringEvaluation;
+import com.benblamey.saesneg.serialization.LifeStoryInfo;
+import com.benblamey.saesneg.serialization.LifeStoryJsonSerializer;
+import com.benblamey.saesneg.serialization.LifeStoryXMLSerializer;
 import com.benblamey.core.FileUtil;
 import com.benblamey.core.ProcessUtilities;
 import com.benblamey.core.classifier.svm.LibSVM;
@@ -159,12 +159,12 @@ public class Experiment {
                     if (a == null) {
                         throw new RuntimeException("null annotation.");
                     }
-                    
+
                     if (a instanceof LocationAnnotation) {
                         LocationAnnotation la = (LocationAnnotation)a;
                         if (la.Level < 1 || la.Level > SpatialStrategy.osmAdminLevelToMinDist.size()) {
                             System.err.println(la.toString());
-                            throw new RuntimeException("location out of range.");    
+                            throw new RuntimeException("location out of range.");
                         }
                     }
                 }
@@ -175,14 +175,14 @@ public class Experiment {
             System.out.println("Step 3 -- Run Phase B (Festibus Strategies on Pairs)");
             step3_runFestibus(eucs);
             exportFestibusPairFeatures(eucs);
-        
+
             //if (eucs.size() > 1) {
                 System.out.println("Step 4 -- Perform Clustering (including training & testing) based on Festibusk output features.");
                 step4_cluster(eucs);
             //} else {
               //  System.out.println("Skipping cluatering -- only one user");
             //}
-            
+
         }
 
         return eucs;
@@ -338,7 +338,7 @@ public class Experiment {
         switch (Options.PhaseBOptions.LibSVMGoldAction) {
             case CrossRun_Individual:
 
-                if (false) { // 
+                if (false) { //
                     int numFolds = 5;
 
                     for (int fold = 0; fold < numFolds; fold++) {
@@ -364,16 +364,16 @@ public class Experiment {
 
                     }
                 }
-                
-                
+
+
                 {
                     // Try folding accross users -- so that training cases are striped.
-                    
-                    List<DatumPairSimilarity> pairsForAllUsers = new ArrayList<>();                        
+
+                    List<DatumPairSimilarity> pairsForAllUsers = new ArrayList<>();
                     for (ExperimentUserContext euc : experimentUserContexts) {
                         pairsForAllUsers.addAll(euc.userContext.getLifeStory().goldenPairs);
                     }
-                    
+
                     int numFolds = 10;
 
                     for (int fold = 0; fold < numFolds; fold++) {
@@ -382,7 +382,7 @@ public class Experiment {
 
                         List<DatumPairSimilarity> trainingCases = new ArrayList<>();
                         List<DatumPairSimilarity> testCases = new ArrayList<>();
-                        
+
                         for (int i = 0; i < pairsForAllUsers.size(); i++) {
                             if (i % numFolds == fold) {
                                 // The user is a *test* for this fold.
@@ -396,8 +396,8 @@ public class Experiment {
                         step4_cluster_pairwiseSVM_byPair(label, trainingCases, testCases);
                     }
                 }
-                
-                
+
+
                 if (false)
                 {
                     // Cheating -- jusst to see what happens!
@@ -407,8 +407,8 @@ public class Experiment {
                     testCases.addAll(experimentUserContexts);
                     step4_cluster_pairwiseSVM("cheating_", trainingCases, testCases);
                 }
-                
-                
+
+
 
                 // Pairs have now been assigned result probabilities, we can export the results.
                 for (ExperimentUserContext euc : experimentUserContexts) {
@@ -462,13 +462,13 @@ public class Experiment {
                     throw new RuntimeException("pair not found");
                 }
 
-                // Note that weights and relative frequencies are **SWAPPED** -- edges with relativily LESS frequency recieve relatively MORE weight, 
+                // Note that weights and relative frequencies are **SWAPPED** -- edges with relativily LESS frequency recieve relatively MORE weight,
                 // so that classes are not penalized in clustering. Hence, expected sum of edge weights for perfect clustering = 0.
 		// See Ch4 for table of frequencies.
-                Double edgeWeight = 
+                Double edgeWeight =
                     pair.classificationResult.Probabilities.get(DatumPairSimilarity.SVM_CLASS_SAME_EVENT)       * 35298  // The relative frequency of INTER edges.
                    -pair.classificationResult.Probabilities.get(DatumPairSimilarity.SVM_CLASS_DIFFERENT_EVENT)  *  4239; // The relative frequency of INTER edges.
-                
+
                 if (pair.classificationResult.Probabilities.keySet().size() != 2 ) {
                     throw new RuntimeException("confused! unexpected pair class: " + pair.classificationResult);
                 }
@@ -609,20 +609,20 @@ public class Experiment {
         }
     }
 
-    
+
     private void step4_cluster_pairwiseSVM_byPair(String label, List<DatumPairSimilarity> trainingCases, List<DatumPairSimilarity> testCases) throws IOException {
         String trainingFileName = this.getOutputDirectory() + label + ".training";
 
         // Run the training for this fold.
         SvmFile trainingFile = new SvmFile(trainingFileName, FestibusFeatures.values().length);
-        
+
         for (DatumPairSimilarity pair : trainingCases) {
             pair.addCaseToSvmFile(trainingFile,
                     pair.goldIsInSameEvent
                             ? DatumPairSimilarity.SVM_CLASS_SAME_EVENT
                             : DatumPairSimilarity.SVM_CLASS_DIFFERENT_EVENT);
         }
-        
+
         trainingFile.close();
         String modelFileName = this.getOutputDirectory() + label + ".model";
         String trainCmd[] = LibSVM.generateSVMTrainCmd(trainingFileName, modelFileName);
@@ -643,7 +643,7 @@ public class Experiment {
             }
         }
     }
-    
+
     private void step4_cluster_pairwiseSVM(String label, List<ExperimentUserContext> trainingCases, List<ExperimentUserContext> testCases) throws RuntimeException, IOException {
         String trainingFileName = this.getOutputDirectory() + label + ".training";
 
@@ -682,35 +682,35 @@ public class Experiment {
 
     //        for (ExperimentUserContext euc : experimentUserContexts) {
 //			LifeStory ls = euc.userContext.getLifeStory();
-//			
-//	
+//
+//
 //			// Grab datums used by ground truth.
 //			List<Datum> gtruthDatums = new ArrayList<Datum>();
 //			for (Event e : euc.userContext.getLifeStory().EventsGolden) {
 //				gtruthDatums.addAll(e.getDatums());
 //			}
-//			
+//
 //			ls.DatumSimilarityCalculator = new ClusteringStrategies(ls, Options.PhaseBOptions);
-//	
+//
 //			if (Options.PhaseBOptions.LibSVMGoldAction != null) {
 //				//euc.goldClusteringSVM(ls, gtruthDatums);
 //			}
-//	
+//
 //			if (Options.PhaseBOptions.EdgeClassifier != null) {
-//		
+//
 //			} else {
 //				LogFile.append("skipping clustering - no edge classifier set.");
 //			}
 //		}
-//        
+//
 //        if (Options.PhaseBOptions != null) {
 //	        // Any SVM-related actions:
 //        	LogFile.println("To cross-validate:");
 //        	LogFile.println(LibSVM.generateSVMCrossValidateCmd(getallUsersLibSVMCasesPath()));
 //        	LogFile.println("To train model:");
-//        	
+//
 //        	LogFile.println(LibSVM.generateSVMTrainCmd(getallUsersLibSVMCasesPath(), ParentSet.getSvmModelPath() ));
-//	        
+//
 //	        if (Options.PhaseBOptions.LibSVMGoldAction == LibSVMGoldActions.ExportAllUserCases_AndTrain) {
 //	        	String output = ProcessUtilities.runAndReturnOutput(LibSVM.generateSVMTrainCmd(getallUsersLibSVMCasesPath(), ParentSet.getSvmModelPath()));
 //	        	LogFile.println(output);
@@ -724,7 +724,7 @@ public class Experiment {
          - Use the latest life story always - recommended for most things - maximizes Ground truth data which "exists" in the life stories (38 missing vs. 104)
          - Use the life story which matches the gold gate doc -this is the only strategy suitable for gold labelling text eval. */
         if (Options.lifeStorySelectStrategy == LifeStorySelectionStrategy.MatchGoldGATEDoc) {
-            // We want to select the life story that matches the gold GATE doc if we can. 
+            // We want to select the life story that matches the gold GATE doc if we can.
             DateTime goldGateDocLifeStoryCreated = Experiment.getGoldGateDocLifeStoryCreated(uc);
             if (goldGateDocLifeStoryCreated != null) {
 
@@ -911,6 +911,6 @@ public class Experiment {
         }
     }
 
-    
+
 
 }

@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseB.eval;
+package com.benblamey.saesneg.phaseB.eval;
 
-import benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.Event;
 import com.benblamey.core.ListUtils;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ public class EventMatcher {
             }
         }
 
-        // Sort the pairs according to similarity. 
+        // Sort the pairs according to similarity.
         Collections.sort(sims, new Comparator<JaccardEventSimilarity>() {
 
             @Override

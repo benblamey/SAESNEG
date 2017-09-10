@@ -1,4 +1,4 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
 import com.benblamey.core.URLUtils;
 import java.net.MalformedURLException;

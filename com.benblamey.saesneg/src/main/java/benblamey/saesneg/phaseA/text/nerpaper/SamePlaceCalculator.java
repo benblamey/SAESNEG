@@ -1,9 +1,9 @@
-package benblamey.saesneg.phaseA.text.nerpaper;
+package com.benblamey.saesneg.phaseA.text.nerpaper;
 
-import benblamey.core.MongoClientInstance;
-import benblamey.nominatim.OpenStreetMapElementKind;
-import benblamey.nominatim.OpenStreetMapSearch;
-import benblamey.nominatim.OpenStreetMapSearchResult;
+import com.benblamey.core.MongoClientInstance;
+import com.benblamey.nominatim.OpenStreetMapElementKind;
+import com.benblamey.nominatim.OpenStreetMapSearch;
+import com.benblamey.nominatim.OpenStreetMapSearchResult;
 import com.benblamey.core.GIS.Haversine;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
@@ -89,7 +89,7 @@ public class SamePlaceCalculator {
 
             //			if (findParentRelations.size() == 1) {
             //				Map<String, Object> parent = findParentRelations.get(0);
-            //				
+            //
             //				String relationship = (String)parent.get("RELATIONSHIP");
             //				if (relationship.equals("admin_centre") && gold.name.equals(candidate.name)) {
             //					System.out.println("admin_centre and name the same.");

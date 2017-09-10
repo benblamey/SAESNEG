@@ -1,30 +1,30 @@
-package benblamey.saesneg.model.datums;
+package com.benblamey.saesneg.model.datums;
 
-import benblamey.core.GATE.GateUtils2;
-import benblamey.core.googlegeocode.GoogleGeoCode;
-import benblamey.eventparser.SocialEventExpression;
-import benblamey.gnuplot.GnuPlot;
-import benblamey.gnuplot.GnuPlotResult;
-import benblamey.nominatim.OpenStreetMapBasicOrdering;
-import benblamey.nominatim.OpenStreetMapElementKind;
-import benblamey.nominatim.OpenStreetMapSearch;
-import benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
-import benblamey.nominatim.OpenStreetMapSearchResult;
-import benblamey.saesneg.PipelineContext;
-import benblamey.saesneg.evaluation.DatumWebProperty;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.annotations.DataKind;
-import benblamey.saesneg.model.annotations.DatumAnnotations;
-import benblamey.saesneg.model.annotations.LocationAnnotation;
-import benblamey.saesneg.model.annotations.TemporalAnnotation;
-import benblamey.saesneg.model.annotations.socialevents.SocialEventAnnotation;
-import benblamey.saesneg.phaseA.text.ProcessTextOptions;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocument;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentReader;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
-import benblamey.saesneg.phaseA.text.nerpaper.GoldLabelling;
-import benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.core.googlegeocode.GoogleGeoCode;
+import com.benblamey.eventparser.SocialEventExpression;
+import com.benblamey.gnuplot.GnuPlot;
+import com.benblamey.gnuplot.GnuPlotResult;
+import com.benblamey.nominatim.OpenStreetMapBasicOrdering;
+import com.benblamey.nominatim.OpenStreetMapElementKind;
+import com.benblamey.nominatim.OpenStreetMapSearch;
+import com.benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
+import com.benblamey.nominatim.OpenStreetMapSearchResult;
+import com.benblamey.saesneg.PipelineContext;
+import com.benblamey.saesneg.evaluation.DatumWebProperty;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.annotations.DataKind;
+import com.benblamey.saesneg.model.annotations.DatumAnnotations;
+import com.benblamey.saesneg.model.annotations.LocationAnnotation;
+import com.benblamey.saesneg.model.annotations.TemporalAnnotation;
+import com.benblamey.saesneg.model.annotations.socialevents.SocialEventAnnotation;
+import com.benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocument;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentReader;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
+import com.benblamey.saesneg.phaseA.text.nerpaper.GoldLabelling;
+import com.benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
 import com.restfb.types.Comment;
 import com.restfb.types.FacebookType;
 import com.restfb.types.NamedFacebookType;
@@ -63,7 +63,7 @@ public abstract class Datum {
     static String anonName(String name) {
         String[] names = name.split(" ");
         String anon = new Character((char)(names[0].substring(0,1).charAt(0) + 1)).toString();
-        if (names.length > 1) 
+        if (names.length > 1)
             anon += names[names.length-1].substring(0,1);
         anon = anon.toUpperCase();
         return anon;
@@ -204,7 +204,7 @@ public abstract class Datum {
 
         _gateSubDocument = gateSubDocument;
     }
-    
+
     public String getText() throws InvalidOffsetException {
         if (_gateSubDocument == null) {
             return null;
@@ -231,10 +231,10 @@ public abstract class Datum {
     public String getFullImageURL() {
         return null;
     }
-    
+
     public String getLocalImageURL() {
         return "file://C:/work/docs/Dropbox/PHD_DATA/images/" + this._ID + ".jpg";
-    } 
+    }
 
     public Iterable<GnuPlotResult> getTimeConstraintPlotPaths() throws IOException, InterruptedException {
         ArrayList<GnuPlotResult> plots = new ArrayList<>();
@@ -283,14 +283,14 @@ public abstract class Datum {
         //////////////////////////////////////////////////////////////////////
         // Timexes.
         AnnotationSet intersectingAnnotations = this._gateSubDocument.getIntersectingAnnotations(StanfordNLPService.GATE_ANNOTATION_SET);
-        
+
         DocumentContent content = this._gateSubDocument.ParentDocument.getContent();
         for (Annotation an : intersectingAnnotations.get(StanfordNLPService.TIMEX_ANNOTATION)) {
             TemporalAnnotation ta = (TemporalAnnotation) an.getFeatures().get(StanfordNLPService.COREMAP_FEATURE);
             ta.SourceDataKind = DataKind.Text;
             ta.isDefinitive = false; // Temporal annotations found in text are not necessarily definitive.
             ta.setOriginalText(content.getContent(
-                    an.getStartNode().getOffset(), 
+                    an.getStartNode().getOffset(),
                     an.getEndNode().getOffset()).toString());
             ta.toString();
             getAnnotations().DateTimesAnnotations.add(ta);
@@ -304,10 +304,10 @@ public abstract class Datum {
         AnnotationSet saesnegOutputLocationAnnotations = this._gateSubDocument.ParentDocument.getAnnotations("SAESNEG_LOCATION");
         for (Annotation sentence : GateUtils2.getSortedAnnotations(this._gateSubDocument.getSentences())) {
             System.out.println("SENTENCE: " + this._gateSubDocument.ParentDocument.getContent().getContent(sentence.getStartNode().getOffset(), sentence.getEndNode().getOffset()));
-            
+
             SimpleAnnotationSet tokensAS = this._gateSubDocument.getTokensForSentence(sentence);
             List<Annotation> tokens = GateUtils2.getSortedAnnotations(tokensAS);
-            
+
             for (int i = 0; i < tokens.size(); i++) {
                 Annotation token = tokens.get(i);
                 AnnotationSet stanfordLocationsAS = stanfordLocs.get(token.getStartNode().getOffset(), token.getEndNode().getOffset());
@@ -317,54 +317,54 @@ public abstract class Datum {
                     stanfordLocation = stanfordLocationIter;
                     break;
                 }
-                
+
                 String tokenText = (String) token.getFeatures().get("string");
                 String trimmedTokenText = OpenStreetMapSearch.toStandardFormWithLeadingSpace(tokenText).trim();
                 if (trimmedTokenText.length() == 0) {
                     continue;
                 }
-                
+
                 Object stanfordEntityType = stanfordLocation.getFeatures().get("entity");
                 String pos = (String) token.getFeatures().get("category");
-                
+
                 // Example features:
                 // features={category=JJ, kind=word, orth=lowercase, length=6,
                 // string=lovely}; start=NodeImpl:
                 // id=3844; offset=7022; end=NodeImpl: id=3845; offset=7028
                 boolean addedOSM = false;
-                
+
                 // Process word-1-grams.
                 List<OpenStreetMapSearchResult> osmResults = readOSMResultsFromDoc(token, osmLocationAnnotations);
                 Collections.sort(osmResults, new OpenStreetMapBasicOrdering());
-                
+
                 for (OpenStreetMapSearchResult r : osmResults) {
-                    
+
                     if (r.name == null) {
                         continue;
                     }
-                    
+
                     // See here for ranks: http://wiki.openstreetmap.org/wiki/Nominatim/Development_overview
 // Indented back for use in thesis.
 boolean passesFilter =
     stanfordEntityType.equals("LOCATION")
     || (
-        trimmedTokenText.toLowerCase().equals(r.name.toLowerCase()) 
-        && (r.osm_type != OpenStreetMapElementKind.PostCode) 
+        trimmedTokenText.toLowerCase().equals(r.name.toLowerCase())
+        && (r.osm_type != OpenStreetMapElementKind.PostCode)
         && (r.osm_sub_class.equals("state"))
        )
     || (
-        (stanfordEntityType.equals("ORGANIZATION") 
+        (stanfordEntityType.equals("ORGANIZATION")
                 || stanfordEntityType.equals("PERSON"))
             && (r.admin_level <= 10)
        )
-    || (r.admin_level <= 6); 
+    || (r.admin_level <= 6);
 
 //(r.rank_search <= 10)
                             //&& tokenText.equals(r.name)) // important places if exact match (including accents etc.)
                             // || (stanfordEntityType.equals("ORGANIZATION") // Anything that is a location
                             //|| ((r.rank_search <= 7) && tokenText.length() > 2)
-                            
-                    
+
+
                     if (passesFilter) {
                         // We only export the first match - prevents confusing the anno diff tool.
                         if (!addedOSM) {
@@ -378,15 +378,15 @@ boolean passesFilter =
                         this.getAnnotations().Locations.add(r);
                     }
                 }
-                
+
                 if (textOptions.BOOTSTRAP_GOLD_LABELLING) {
                     bootstrapGoldLabelling(token, tokenText, pos, osmResults);
                 }
-                
+
                 if (!addedOSM && tokenText.contains("Cardiff")) {
                     "".toString();
                 }
-                
+
             }
         }
     }
@@ -437,7 +437,7 @@ boolean passesFilter =
         AnnotationSet intersectingAnnotations = this._gateSubDocument.getIntersectingAnnotations(StanfordNLPService.GATE_ANNOTATION_SET);
 
         DocumentContent content = this._gateSubDocument.ParentDocument.getContent();
-        
+
         // Handle the Social Event annotations.
         for (Annotation an : intersectingAnnotations.get(StanfordNLPService.SOCIALEVENT_ANNOTATION)) {
             CoreMap cm = (CoreMap) an.getFeatures().get(StanfordNLPService.COREMAP_FEATURE);
@@ -489,10 +489,10 @@ boolean passesFilter =
         } else {
             this._user.postDeserializationFix();
         }
-        
+
         _annotations = new DatumAnnotations();
     }
 
-    
+
 
 }

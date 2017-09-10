@@ -1,11 +1,11 @@
-package benblamey.saesneg.model;
+package com.benblamey.saesneg.model;
 
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.model.datums.DatumAlbum;
-import benblamey.saesneg.model.datums.DatumCollection;
-import benblamey.saesneg.model.datums.DatumEvent;
-import benblamey.saesneg.phaseB.ClusteringStrategies;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.datums.DatumAlbum;
+import com.benblamey.saesneg.model.datums.DatumCollection;
+import com.benblamey.saesneg.model.datums.DatumEvent;
+import com.benblamey.saesneg.phaseB.ClusteringStrategies;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
 import com.restfb.types.NamedFacebookType;
 import com.restfb.types.User;
 import gate.Document;
@@ -21,7 +21,7 @@ import org.joda.time.DateTime;
 
 /*
  * The life story of a user (a collection of events comprised of datums)
- * Includes annotations and extracted WWWW. 
+ * Includes annotations and extracted WWWW.
  * Intended as a Data Access Object rather than a repository for business logic nor a working context.
  * Intended to be serialised.
  */
@@ -123,7 +123,7 @@ public class LifeStory {
             public int compare(Datum arg0, Datum arg1) {
 
 				// Requirements:
-                // rationale: recall will be better for more recent data, 
+                // rationale: recall will be better for more recent data,
                 // avoid sorting by type
                 // albums photos still together
                 // Most recent data first.
@@ -189,9 +189,9 @@ public class LifeStory {
         }
 
         EventsComputed = new ArrayList<>();
-        
+
         this.datums.afterDeserlializationFix();
-        
+
 
         // Build the friend indexes.
         initFriends();

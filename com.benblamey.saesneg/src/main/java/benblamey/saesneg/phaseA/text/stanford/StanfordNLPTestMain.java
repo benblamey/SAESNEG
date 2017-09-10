@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package benblamey.saesneg.phaseA.text.stanford;
+package com.benblamey.saesneg.phaseA.text.stanford;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.tokensregex.MatchedExpression;
@@ -127,9 +127,9 @@ public class StanfordNLPTestMain {
             System.out.println("\tplot: " + gnuPlot);
             "".toString();
 
-            newText.append("{"); //  
+            newText.append("{"); //
 
-            newText.append("}"); // 
+            newText.append("}"); //
 
             lastIndex = characterOffsetEnd;
         }

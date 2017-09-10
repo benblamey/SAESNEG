@@ -1,10 +1,10 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
-import benblamey.saesneg.Fetcher;
-import benblamey.saesneg.Users;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.serialization.LifeStoryXMLSerializer;
+import com.benblamey.saesneg.Fetcher;
+import com.benblamey.saesneg.Users;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.serialization.LifeStoryXMLSerializer;
 import com.benblamey.core.logging.PlainTextLogger;
 import com.mongodb.DBObject;
 import java.io.IOException;

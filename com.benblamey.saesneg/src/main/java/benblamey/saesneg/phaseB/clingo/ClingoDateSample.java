@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package benblamey.saesneg.phaseB.clingo;
+package com.benblamey.saesneg.phaseB.clingo;
 
 import java.util.Iterator;
 import org.joda.time.DateTime;

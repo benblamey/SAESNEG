@@ -1,6 +1,6 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
-import benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.LifeStory;
 import com.restfb.types.CategorizedFacebookType;
 import com.restfb.types.Event;
 import com.restfb.types.NamedFacebookType;
@@ -11,14 +11,14 @@ public class PersonAnnotation extends Annotation {
 
     public String Name;
     public String FacebookID;
-    
+
     boolean _resolved; // can't be private because set from anon classes in static methods below.
 
     private PersonAnnotation() { // Only allow constructing through static methods.
     }
-    
+
     public static PersonAnnotation From(final Event.Owner data, final String note) {
-        
+
         return new PersonAnnotation() {
             {
                 FacebookID = data.getId();
@@ -30,7 +30,7 @@ public class PersonAnnotation extends Annotation {
         };
 
     }
-    
+
     public static PersonAnnotation From(final CategorizedFacebookType data, final String note) {
 
         return new PersonAnnotation() {
@@ -55,7 +55,7 @@ public class PersonAnnotation extends Annotation {
             }
         };
     }
-    
+
     public static PersonAnnotation fromFreeText(String originalText, HashMap<String, String> FriendIDByName, String note) {
         PersonAnnotation personAtEvent = new PersonAnnotation();
 
@@ -109,7 +109,7 @@ public class PersonAnnotation extends Annotation {
             _resolved = true;
         }
     }
-    
+
         @Override
     public String toString() {
         return "PersonAtEvent, "

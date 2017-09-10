@@ -1,4 +1,4 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
 import com.benblamey.core.StringUtils;
 import static org.junit.Assert.assertEquals;

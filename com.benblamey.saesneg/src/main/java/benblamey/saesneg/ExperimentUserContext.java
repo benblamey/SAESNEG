@@ -1,19 +1,19 @@
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
-import benblamey.core.DateUtil;
-import benblamey.core.GATE.GateUtils2;
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseA.metadata.ProcessMetadata;
-import benblamey.saesneg.phaseA.text.GATEFileKind;
-import benblamey.saesneg.phaseA.text.ProcessText;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
-import benblamey.saesneg.phaseB.eval.EventMatcher;
-import benblamey.saesneg.phaseB.eval.FileDiffEventMatcherOutput;
-import benblamey.saesneg.serialization.LifeStoryJsonSerializer;
+import com.benblamey.core.DateUtil;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseA.metadata.ProcessMetadata;
+import com.benblamey.saesneg.phaseA.text.GATEFileKind;
+import com.benblamey.saesneg.phaseA.text.ProcessText;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.phaseB.eval.EventMatcher;
+import com.benblamey.saesneg.phaseB.eval.FileDiffEventMatcherOutput;
+import com.benblamey.saesneg.serialization.LifeStoryJsonSerializer;
 import com.benblamey.core.BinarySerializer;
 import com.benblamey.core.StreamUtils;
 import com.benblamey.core.classifier.svm.SvmFile;
@@ -79,7 +79,7 @@ public class ExperimentUserContext {
                 doc = ProcessText.createGATEdoc(ls);
 
                 System.out.println(doc.getContent().toString());
-                
+
                 ProcessText.processDocument(doc, _parent.Options._textOptions, _parent.Options._gisTextOptions, this._parent.LogFile);
 
                 // Export to XML (before we add the OSM annotations -- it makes the file too big)
@@ -94,7 +94,7 @@ public class ExperimentUserContext {
 
                 // And serialize in binary form.
                 // NEVER OVERWRITE THE GOLD LABELLED GATE FILES.
-                
+
                 //BinarySerializer.writeToFile(getGATEfilename(userContext, GATEFileKind.BinaryCache), doc);
             }
 
@@ -179,7 +179,7 @@ public class ExperimentUserContext {
         }
 
         computeClusterAccuracyOnmi();
-    
+
         if (_parent.Options.PhaseBOptions.exportForDiffTool) {
             String comp = this._parent.getOutputDirectory() + this.userContext.getName() + "_comp.txt";
             String gt = this._parent.getOutputDirectory() + this.userContext.getName() + "_gtruth.txt";
@@ -197,7 +197,7 @@ public class ExperimentUserContext {
 
 //	/**
 //	 * Run SVM training or x-validation for gold-truth clustering.
-//	 * 
+//	 *
 //	 * @param ls
 //	 * @param gtruthDatums
 //	 * @throws IOException
@@ -252,7 +252,7 @@ public class ExperimentUserContext {
 //				} else {
 //					casesOuter++;
 //				}
-//				int classLabel = isInSameGTEvent ? DatumPairSimilarity.SVM_CLASS_SAME_EVENT : 
+//				int classLabel = isInSameGTEvent ? DatumPairSimilarity.SVM_CLASS_SAME_EVENT :
 //					DatumPairSimilarity.SVM_CLASS_DIFFERENT_EVENT;
 //
 //				pairSim.addCaseToSvmFile(svmFile, classLabel);

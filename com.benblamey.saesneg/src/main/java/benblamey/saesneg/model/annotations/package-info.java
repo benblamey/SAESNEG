@@ -6,4 +6,4 @@
  * @author ben-laptop
  *
  */
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;

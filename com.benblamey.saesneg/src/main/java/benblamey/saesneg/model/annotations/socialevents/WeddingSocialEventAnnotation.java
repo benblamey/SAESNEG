@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.annotations.socialevents;
+package com.benblamey.saesneg.model.annotations.socialevents;
 
 import gate.Factory;
 import gate.FeatureMap;
@@ -61,7 +61,7 @@ public class WeddingSocialEventAnnotation extends SocialEventAnnotation {
         return newFeatureMap;
     }
 
-    
+
     public static WeddingSocialEventAnnotation merge(List<WeddingSocialEventAnnotation> weddings) {
         WeddingSocialEventAnnotation mergedWedding = null;
         for (WeddingSocialEventAnnotation wedding : weddings) {
@@ -76,5 +76,5 @@ public class WeddingSocialEventAnnotation extends SocialEventAnnotation {
         return mergedWedding;
     }
 
-    
+
 }

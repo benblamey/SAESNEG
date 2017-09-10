@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
 import com.benblamey.core.ProcessUtilities;
 
@@ -18,22 +18,22 @@ public class MelsnerTest {
             //"C:\\cygwin64\\bin\\mintty.exe",
             //"-e",
             //"/cygdrive/c/work/data/runMelsner.sh"
-            
-            
+
+
             "C:/work/code/3rd_Ben/correlation-distr/bin64/chainedSolvers.exe", "log", "vote", "boem"
                 , "C:/work/data/output/clustering.matrix"
                 //+ " >\"\"/cygdrive/c/work/data/output/clustering.output\"\"\""
                 //+ " 2>\"\"/cygdrive/c/work/data/output/clustering.err\"\"\""
         };
-                 
+
         String output = ProcessUtilities.runAndReturnOutput(cmds);
-        
+
         System.out.println(output);
-        
-                
-                
-                
-                
+
+
+
+
+
     }
 
 }

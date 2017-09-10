@@ -1,4 +1,4 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
 import com.benblamey.core.onmi.OnmiResult;
 import java.util.HashMap;
@@ -16,7 +16,7 @@ public class ExperimentResults {
      * Onmi, Mutual-Information based evaluation results, per user.
      */
     public final Map<String, OnmiResult> OnmiResults = new HashMap<>();
-    
+
     public final Map<String, Object> PairwiseResults = new HashMap<>();
 
 }

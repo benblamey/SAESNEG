@@ -1,7 +1,7 @@
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
 import com.benblamey.core.logging.Logger;
 import com.benblamey.core.logging.LoggerLevel;
 import com.restfb.types.NamedFacebookType;
@@ -29,7 +29,7 @@ public class Fetcher {
 
         logger.info("Fetching groups.");
         lifeStory.Groups = user.fch.getConnectionWithPagination("me/groups", com.restfb.types.Group.class);
-        
+
         // Locations is now deprecated.
         //logger.info("Fetching locations.");
         //lifeStory.Locations = user.fch.GetConnectionWithPagination("me/locations", com.restfb.types.Location.class);
@@ -37,7 +37,7 @@ public class Fetcher {
         logger.info("Fetching objects.");
         // Note: Photos automatically fetch their parent albums.
         user.fch.getObjects(user.getLifeStory().datums, "me");
-        
+
         if (lifeStory.datums.isEmpty()) {
             logger.log(LoggerLevel.INFORMATION, "No Entries for " + user.getName());
         }

@@ -1,7 +1,7 @@
-package benblamey.tempex_paper.flickr_tempex;
+package com.benblamey.tempex_paper.flickr_tempex;
 
-import benblamey.core.DateUtil;
-import benblamey.core.MySQLWebCache;
+import com.benblamey.core.DateUtil;
+import com.benblamey.core.MySQLWebCache;
 import com.benblamey.core.Math2;
 import com.mysql.jdbc.NotImplemented;
 import java.io.BufferedReader;
@@ -34,7 +34,7 @@ class flickr_tempex {
             //            // misc anglo/euro
             //            "new years",
             //            // holidays
-            //"inauguration day", "groundhog day", 
+            //"inauguration day", "groundhog day",
             //"valentine", "st. patrick","halloween", "bonfire", "guy fawkes", "martin luther king day", "memorial day",
             // "thanksgiving", "easter",
 
@@ -58,7 +58,7 @@ class flickr_tempex {
             "Red nose day",
             "Valentine's Day",
             "Last Day of School",
-            //        
+            //
             "Winter",
             "Spring",
             "Summer",
@@ -70,7 +70,7 @@ class flickr_tempex {
             String filename = "C:/work/data/output/tempex/flickr_timestamps/" + search.replace(" ", "").replace("'", "") + ".txt";
             ExportPhotoTimestamps(filename, search, max_pages, per_page, endof_2012_millis, startof_2012_millis);
 
-            //DoStats(search,filename);  
+            //DoStats(search,filename);
             DoEM(search, filename);
 
         }
@@ -255,10 +255,10 @@ class flickr_tempex {
 //            if (totalfoo > total) {
 //                "".toString();
 //            }
-//                        
+//
 //            n++;
-//        }     
-//        
+//        }
+//
 //        double sd_seconds = Math.sqrt(total/n);
         System.out.println("Mean of " + search + " is " + meanTime
                 //);
@@ -330,13 +330,13 @@ class flickr_tempex {
 //            final double f_x_kde_sd = 60*60*24;
 //            final double foo_1 = 1/(f_x_kde_sd* Math.sqrt(2*Math.PI));
 //            final double foo_2 = 2 * f_x_kde_sd*f_x_kde_sd;
-//            
+//
 //            for (double x_j : x) {
 //                double f_x_j = 0;
 //                for (double x_k : timestamps) {
 //                    f_x_j += computeNormal(x_j, x_k, f_x_kde_sd);
-//                    
-////                    f_x_j += foo_1 
+//
+////                    f_x_j += foo_1
 ////                            * Math.exp(- Math.pow(Math2.distUndermod(x_j, x_k, SECONDS_IN_A_YEAR),2)/foo_2);
 //                }
 //                f_x.add(f_x_j);

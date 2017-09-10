@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.datums;
+package com.benblamey.saesneg.model.datums;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -68,9 +68,9 @@ public class DatumCollection extends ArrayList<Datum> // This should be implemen
 
     public void afterDeserlializationFix() {
         // Bizarrely, because of old serialized data -- we can end up with STRINGS instead of LONGS!
-        // (i.e. old style 
+        // (i.e. old style
         // This breaks the key-lookup.
-        
+
         // Rather than faffing with the broken, simply re-build the index afresh.
         _map.clear();
         for (Datum d : this) {

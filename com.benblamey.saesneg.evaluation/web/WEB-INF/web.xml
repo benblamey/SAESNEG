@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Metadata complete means that all servlets etc. are listed in here, no 
+<!-- Metadata complete means that all servlets etc. are listed in here, no
 	need for slow reflection scsn. -->
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
@@ -11,7 +11,7 @@
 			<path>/</path>
 		</cookie-config>
 	</session-config>
-        
+
 	<error-page>
 		<exception-type>java.lang.Throwable</exception-type>
 		<location>/WEB-INF/error.jsp</location>
@@ -19,18 +19,18 @@
 	<welcome-file-list>
 		<welcome-file>Index</welcome-file>
 	</welcome-file-list>
-        
-        
+
+
     <filter>
        <filter-name>ExpiresFilter</filter-name>
-       <filter-class>benblamey.evaluation.ExpiresFilter</filter-class>
+       <filter-class>com.benblamey.evaluation.ExpiresFilter</filter-class>
     </filter>
     <filter-mapping>
        <filter-name>ExpiresFilter</filter-name>
        <url-pattern>/gnuplots/*</url-pattern>
        <dispatcher>REQUEST</dispatcher>
     </filter-mapping>
-        
+
         <!--
 	<filter>
 		<filter-name>UrlRewriteFilter</filter-name>
@@ -60,7 +60,7 @@
 
 	<servlet>
 		<servlet-name>DebugIndex</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.debug.DebugIndex</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.debug.DebugIndex</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>DebugIndex</servlet-name>
@@ -70,7 +70,7 @@
 
 	<servlet>
 		<servlet-name>ComputeEventClusters</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.debug.ComputeEventClusters</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.debug.ComputeEventClusters</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ComputeEventClusters</servlet-name>
@@ -79,7 +79,7 @@
 
 	<servlet>
 		<servlet-name>ViewGroundTruthEvents</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.debug.ViewGroundTruthEvents</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.debug.ViewGroundTruthEvents</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ViewGroundTruthEvents</servlet-name>
@@ -88,7 +88,7 @@
 
 	<servlet>
 		<servlet-name>CompareClusterAccuracy</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.debug.CompareClusterAccuracy</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.debug.CompareClusterAccuracy</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>CompareClusterAccuracy</servlet-name>
@@ -97,7 +97,7 @@
 
 	<servlet>
 		<servlet-name>LifeLogInterface</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.debug.LifeLogInterface</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.debug.LifeLogInterface</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LifeLogInterface</servlet-name>
@@ -107,7 +107,7 @@
 
 	<servlet>
 		<servlet-name>GroundTruth</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.GroundTruth</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.GroundTruth</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>GroundTruth</servlet-name>
@@ -116,7 +116,7 @@
 
 	<servlet>
 		<servlet-name>Index</servlet-name>
-		<servlet-class>benblamey.evaluation.web.servlets.Index</servlet-class>
+		<servlet-class>com.benblamey.evaluation.web.servlets.Index</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Index</servlet-name>

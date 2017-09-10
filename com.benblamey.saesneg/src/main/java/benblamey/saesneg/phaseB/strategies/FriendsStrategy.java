@@ -1,13 +1,13 @@
-package benblamey.saesneg.phaseB.strategies;
+package com.benblamey.saesneg.phaseB.strategies;
 
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.annotations.PersonAnnotation;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
-import benblamey.saesneg.phaseB.DatumSimilarityEvidence;
-import benblamey.saesneg.phaseB.FestibusFeatures;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.annotations.PersonAnnotation;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.phaseB.DatumSimilarityEvidence;
+import com.benblamey.saesneg.phaseB.FestibusFeatures;
 import com.benblamey.core.ListUtils;
 import java.util.HashSet;
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
 public class FriendsStrategy extends Strategy {
 
     private String _theUserID;
-    
+
     public FriendsStrategy(LifeStory ls, UserContext user) {
         _theUserID = user.ID;
     }
@@ -34,7 +34,7 @@ public class FriendsStrategy extends Strategy {
 
         HashSet<String> facebookIDsLeft = new HashSet<>();
         HashSet<String> facebookIDsRight = new HashSet<>();
-        
+
         for (PersonAnnotation pae : peopleAtLeft) {
             facebookIDsLeft.add(pae.getFacebookID());
         }
@@ -44,12 +44,12 @@ public class FriendsStrategy extends Strategy {
         }
 
         List<String> intersection = ListUtils.intersection(facebookIDsLeft, facebookIDsRight);
-        
+
         // Ensure that the owner is always in the intersection.
         if (!intersection.contains(_theUserID)) {
             intersection.add(_theUserID);
         }
-                
+
         return new DatumSimilarityEvidence(
                 FestibusFeatures.Friends_InCommon,
                 1.0 - 1.0/intersection.size(),

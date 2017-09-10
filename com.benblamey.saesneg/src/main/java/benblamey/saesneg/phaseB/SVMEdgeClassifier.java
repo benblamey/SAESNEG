@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseB;
+package com.benblamey.saesneg.phaseB;
 
 import com.benblamey.core.classifier.svm.LibSVM;
 import com.benblamey.core.classifier.svm.SvmClassificationProbResult;

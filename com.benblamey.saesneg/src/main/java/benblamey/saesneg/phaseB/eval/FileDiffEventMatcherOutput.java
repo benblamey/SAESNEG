@@ -1,7 +1,7 @@
-package benblamey.saesneg.phaseB.eval;
+package com.benblamey.saesneg.phaseB.eval;
 
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.datums.Datum;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

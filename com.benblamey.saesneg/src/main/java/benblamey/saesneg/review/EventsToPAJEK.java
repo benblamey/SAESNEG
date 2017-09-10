@@ -1,9 +1,9 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseB.old.EventSimilarity_OLD;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseB.old.EventSimilarity_OLD;
 import com.benblamey.core.pajek.Edge;
 import com.benblamey.core.pajek.Network;
 import com.benblamey.core.pajek.Vertex;

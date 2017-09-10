@@ -1,4 +1,4 @@
-package benblamey.saesneg.evaluation;
+package com.benblamey.saesneg.evaluation;
 
 /**
  * A view-model for representing metadata in the various web interfaces. The aim

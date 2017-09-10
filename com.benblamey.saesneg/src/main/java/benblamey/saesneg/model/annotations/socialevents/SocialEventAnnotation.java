@@ -1,6 +1,6 @@
-package benblamey.saesneg.model.annotations.socialevents;
+package com.benblamey.saesneg.model.annotations.socialevents;
 
-import benblamey.saesneg.model.annotations.Annotation;
+import com.benblamey.saesneg.model.annotations.Annotation;
 import gate.FeatureMap;
 
 public abstract class SocialEventAnnotation extends Annotation {

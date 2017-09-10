@@ -1,11 +1,11 @@
-package benblamey.saesneg.phaseB.strategies;
+package com.benblamey.saesneg.phaseB.strategies;
 
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.model.annotations.TemporalAnnotation;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
-import benblamey.saesneg.phaseB.DatumSimilarityEvidence;
-import benblamey.saesneg.phaseB.FestibusFeatures;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.model.annotations.TemporalAnnotation;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.phaseB.DatumSimilarityEvidence;
+import com.benblamey.saesneg.phaseB.FestibusFeatures;
 import edu.stanford.nlp.time.distributed.AnnualUniformDistribution;
 import edu.stanford.nlp.time.distributed.IntersectTimeExpression;
 import edu.stanford.nlp.time.distributed.SumTimeExpression;
@@ -24,13 +24,13 @@ public class TemporalStrategy extends Strategy {
         // Feature is shared with Distributed Temporal Feature.
         if (b.UseDistributedTemporalSimilarity) {
             List<TemporalAnnotation> leftTimes;
-                    
+
             TimeDensityFunction timeOfLeftEvent = getCombinedTimeForEvent(left);
             TimeDensityFunction timeOfRightEvent = getCombinedTimeForEvent(right);
             Double score = TimeDensityFunction.getSimilarity(timeOfLeftEvent, timeOfRightEvent);
-            
+
             String note = "intersection between two probability distributions";
-            
+
             if (Double.isNaN(score) || Double.isInfinite(score)) {
                 note = "Answer was " + Double.toString(score) + " -- using 0.0 instead.";
                 score = 0.0;
@@ -50,7 +50,7 @@ public class TemporalStrategy extends Strategy {
             if (daysBetween < 0) {
                 daysBetween = -daysBetween;
             }
-            
+
             double score = 1.0 / (1.0 + daysBetween);
 
             pair.addEvidence(new DatumSimilarityEvidence(
@@ -61,11 +61,11 @@ public class TemporalStrategy extends Strategy {
     }
 
     private TimeDensityFunction getCombinedTimeForEvent(Datum datum) {
-        
+
         List<TimeDensityFunction> terms = new ArrayList<TimeDensityFunction>();
         for (TemporalAnnotation timeAnno : datum.getAnnotations().DateTimesAnnotations) {
             TimeDensityFunction term = timeAnno.getDensity();
-            
+
             if (term != null) {
                 if (!timeAnno.isDefinitive) {
                     // Assume 50% likelihood that temporal information matches the event.
@@ -76,9 +76,9 @@ public class TemporalStrategy extends Strategy {
             } else {
                 System.out.println("term: " + timeAnno + " is null.");
             }
-            
+
         }
-        
+
         if (terms.isEmpty()){
             // Return a uniform distribution if there is no other temporal information.
             return new AnnualUniformDistribution(1);

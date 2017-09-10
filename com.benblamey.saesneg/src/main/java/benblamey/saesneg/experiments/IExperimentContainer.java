@@ -1,4 +1,4 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
 /**
  * A context in which experiments can be run. (de-couples the dependency to

@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.text.eval;
+package com.benblamey.saesneg.phaseA.text.eval;
 
 /**
  * The different possibilities for correctness of a GATE annotation.

@@ -1,12 +1,12 @@
-package benblamey.saesneg.phaseA.text;
+package com.benblamey.saesneg.phaseA.text;
 
-import benblamey.core.GATE.GateUtils2;
-import benblamey.nominatim.OpenStreetMapSearch;
-import benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
-import benblamey.nominatim.OpenStreetMapSearchResult;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.nominatim.OpenStreetMapSearch;
+import com.benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
+import com.benblamey.nominatim.OpenStreetMapSearchResult;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
 import gate.Annotation;
 import gate.Corpus;
 import gate.Document;
@@ -30,7 +30,7 @@ public class ProcessText {
     public static Document processDocument(Document doc, ProcessTextOptions textOptions, OpenStreetMapSearchAlgorithmOptions gisOptions, PrintStream log) throws GateException, FileNotFoundException, MalformedURLException, SQLException {
 
         if (doc.getContent().size() > 0) {
-            // Run ANNIE			
+            // Run ANNIE
             runANNIE(doc);
 
             // Now run Stanford NLP and annotate the document.

@@ -4,16 +4,16 @@
  * and open the template in the editor.
  */
 
-package benblamey.saesneg.experiments.configs;
+package com.benblamey.saesneg.experiments.configs;
 
-import benblamey.saesneg.PipelineContext;
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.experiments.ExperimentSet;
-import benblamey.saesneg.experiments.LibSVMGoldActions;
-import benblamey.saesneg.experiments.LifeStorySelectionStrategy;
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.benblamey.saesneg.PipelineContext;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.experiments.ExperimentSet;
+import com.benblamey.saesneg.experiments.LibSVMGoldActions;
+import com.benblamey.saesneg.experiments.LifeStorySelectionStrategy;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.phaseA.text.ProcessTextOptions;
 
 public class FullPipelne_Offline {
 
@@ -38,17 +38,17 @@ public class FullPipelne_Offline {
                         _textOptions = new ProcessTextOptions() {
                         };
                         runPhaseAMetadata = true;
-                        
+
                         geocodeMetadata = false;
-                        
+
                         PhaseBOptions = new PhaseBOptions() {
                             {
                                 LibSVMGoldAction = LibSVMGoldActions.CrossRun_Individual;
                                 //EdgeClassifier = EdgeClassifierMethod.SVM;
                             }
                         };
-                        
-                        
+
+
                     }
                 };
 

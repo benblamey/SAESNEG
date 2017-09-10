@@ -1,21 +1,21 @@
-package benblamey.saesneg.model.datums;
+package com.benblamey.saesneg.model.datums;
 
-import benblamey.core.DateUtil;
-import benblamey.core.WebCache404;
-import benblamey.saesneg.FacebookClientHelper;
-import benblamey.saesneg.evaluation.DatumWebProperty;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.annotations.DataKind;
-import benblamey.saesneg.model.annotations.DatumsInUserStructureAnnotation;
-import benblamey.saesneg.model.annotations.ImageContentAnnotation;
-import benblamey.saesneg.model.annotations.LocationAnnotation;
-import benblamey.saesneg.model.annotations.PersonAnnotation;
-import benblamey.saesneg.model.annotations.PhotoUploadTimeDensity;
-import benblamey.saesneg.model.annotations.SingleDayTimeDensity;
-import benblamey.saesneg.model.annotations.TemporalAnnotation;
-import benblamey.saesneg.phaseA.image.ImageFeatureExtractor;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
+import com.benblamey.core.DateUtil;
+import com.benblamey.core.WebCache404;
+import com.benblamey.saesneg.FacebookClientHelper;
+import com.benblamey.saesneg.evaluation.DatumWebProperty;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.annotations.DataKind;
+import com.benblamey.saesneg.model.annotations.DatumsInUserStructureAnnotation;
+import com.benblamey.saesneg.model.annotations.ImageContentAnnotation;
+import com.benblamey.saesneg.model.annotations.LocationAnnotation;
+import com.benblamey.saesneg.model.annotations.PersonAnnotation;
+import com.benblamey.saesneg.model.annotations.PhotoUploadTimeDensity;
+import com.benblamey.saesneg.model.annotations.SingleDayTimeDensity;
+import com.benblamey.saesneg.model.annotations.TemporalAnnotation;
+import com.benblamey.saesneg.phaseA.image.ImageFeatureExtractor;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
 import com.benblamey.core.StringUtils;
 import com.mongodb.BasicDBObject;
 import com.mongodb.util.JSON;
@@ -295,11 +295,11 @@ public class DatumPhoto extends Datum {
     public void processImageContent() {
         super.processImageContent();
 
-        
+
         if (ImageFeatureExtractor.isJPEG(_photo.getSource())) {
-            
+
             String localFilePath = "C:\\work\\docs\\Dropbox\\PHD_DATA\\images\\" + this._ID + ".jpg";
-            
+
             if (!WebCache404.is404(_photo.getSource())) {
                 File destFile = new File(localFilePath);
                 if (!destFile.exists())
@@ -352,7 +352,7 @@ public class DatumPhoto extends Datum {
                 System.out.println("Skipping photo image not found -- " + _photo.getSource());
                 WebCache404.put404(_photo.getSource());
             }
-            
+
         }
     }
 

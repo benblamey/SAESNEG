@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package benblamey.tests;
+package com.benblamey.tests;
 
 import com.benblamey.core.Math2;
 import com.mysql.jdbc.NotImplemented;

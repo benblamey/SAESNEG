@@ -1,6 +1,6 @@
-package benblamey.gnuplot; 
+package com.benblamey.gnuplot;
 
-//import benblamey.experiments.pipeline.UserContext;
+//import com.benblamey.experiments.pipeline.UserContext;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -31,7 +31,7 @@ public class GnuPlot {
         }
         _outputDirectory = outputDirectory;
     }
-    
+
     // ************************************
     // NOTE:
     //    tm_mon is zero-indexed.
@@ -44,16 +44,16 @@ public class GnuPlot {
                 )
         );
     }
-    
+
     public GnuPlotResult exportGraph(String plot) throws IOException, InterruptedException {
         return exportGraph(Arrays.asList(plot));
     }
-    
+
     public GnuPlotResult exportGraph(List<String> plots) throws IOException, InterruptedException {
 
         GnuPlotResult result = new GnuPlotResult();
         result.filePath = _outputDirectory;
-        
+
         if (plots.isEmpty()) {
             result.command = null;
             result.fileName = "emptygraph.png";
@@ -95,8 +95,8 @@ public class GnuPlot {
 
         final String DummyFileName = "DUMMYFILENAME.png";
 
-        
-        result.command =                
+
+        result.command =
             "syear = 366*24*60*60;"
             +"min2(x,y) = x<y?x:y;"
             +"max2(x,y) = x>y?x:y;"
@@ -137,15 +137,15 @@ public class GnuPlot {
         // Apache commons codec lib.
         String argumentsHex = DigestUtils.shaHex(result.command);
 
-        
+
         result.fileName = argumentsHex
                 + ".png";
-        
+
         System.out.println(result.fileName);
-        
+
         // Otherwise, fill in the actual filename into the parameters.
         result.command = result.command.replace(DummyFileName, (_outputDirectory + "\\" + result.fileName).replace("\\", "//"));
-        
+
         // If the same plot already exists, return that.
         if (!new File(_outputDirectory + "\\" + result.fileName).exists())  {
             runGnuPlot(result);
@@ -161,51 +161,51 @@ public class GnuPlot {
         } else {
             gnuplotPath = "gnuplot";
         }
-        
+
         String[] s = {gnuplotPath,
             "-e",
             result.command
         };
-        
+
         Runtime rt = Runtime.getRuntime();
         Process proc = rt.exec(s);
-        
+
         InputStream stdin = proc.getErrorStream();
         InputStreamReader isr = new InputStreamReader(stdin);
-        
+
         BufferedReader br = new BufferedReader(isr);
-        
+
         String line;
         while ((line = br.readLine()) != null) {
             System.err.println("gnuplot:" + line);
         }
-        
+
         int exitVal = proc.waitFor();
         if (exitVal != 0) {
             System.err.print("gnuplot Process exitValue: " + exitVal);
-            
+
             // Delete the image so that we attempt to re-create it in the future.
             File png = new File(_outputDirectory + "\\" + result.fileName);
             png.delete();
         }
-        
-        
+
+
         proc.getInputStream().close();
         proc.getOutputStream().close();
         proc.getErrorStream().close();
     }
-    
+
     public String escapeTitle(String title) {
         if (title == null) {
-            return "null"; 
+            return "null";
         } else {
             return title.replace("'", "?").replace("\"", "?").replace("`", "?");
         }
     }
-    
+
     /**
      * Seconds since January 1st 2000 is used for gnuplot.
-     * @return 
+     * @return
      */
     public static int toSecondsSinceY2K(Instant dateTime) {
         try {
@@ -215,7 +215,7 @@ public class GnuPlot {
             return 0;
         }
     }
-    
+
 
 }
 

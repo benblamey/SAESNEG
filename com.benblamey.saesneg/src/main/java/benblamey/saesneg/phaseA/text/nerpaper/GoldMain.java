@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseA.text.nerpaper;
+package com.benblamey.saesneg.phaseA.text.nerpaper;
 
-import benblamey.core.GATE.GateUtils2;
+import com.benblamey.core.GATE.GateUtils2;
 import gate.Annotation;
 import gate.AnnotationSet;
 import gate.Document;

@@ -1,8 +1,8 @@
-package benblamey.saesneg.serialization;
+package com.benblamey.saesneg.serialization;
 
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.datums.Datum;
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class LifeStoryJsonSerializer {
         if (groundTruth == null) {
             return null;
         }
-        
+
         String filename = groundTruth.getString("lifeStoryFileName");
         if (filename == null) {
             System.out.println("lifestory file name missing from ground truth JSON");
@@ -28,7 +28,7 @@ public class LifeStoryJsonSerializer {
         }
         return filename;
     }
-    
+
     public static List<Event> getGroundTruthEvents(LifeStory ls, SocialWorldUser user) {
 
         ArrayList<Event> events = new ArrayList<>();

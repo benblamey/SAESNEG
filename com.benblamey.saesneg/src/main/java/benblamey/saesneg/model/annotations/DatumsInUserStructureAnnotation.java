@@ -1,6 +1,6 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
-import benblamey.saesneg.model.datums.DatumAlbum;
+import com.benblamey.saesneg.model.datums.DatumAlbum;
 
 public class DatumsInUserStructureAnnotation extends Annotation {
 

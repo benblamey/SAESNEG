@@ -1,4 +1,4 @@
-package benblamey.nominatim;
+package com.benblamey.nominatim;
 
 import com.benblamey.core.SQLUtils;
 import com.benblamey.core.StringUtils;
@@ -32,7 +32,7 @@ public class OpenStreetMapSearch {
     //private PreparedStatement _selectFrom_wordBackwards;
     private Connection _con;
     private PreparedStatement _selectFrom_location_area_large_x;
-    private PreparedStatement _selectFrom_location_area_country; // schema the same as '_selectFrom_location_area_large_x' 
+    private PreparedStatement _selectFrom_location_area_country; // schema the same as '_selectFrom_location_area_large_x'
     private OpenStreetMapSearchAlgorithmOptions _options;
     private PreparedStatement _selectPlaceData;
     private PreparedStatement _findParentRelation;
@@ -198,13 +198,13 @@ public class OpenStreetMapSearch {
         result_search_name_x.close();
     }
 
-    
+
     private static HashMap<Integer, OpenStreetMapSearchResult> RESULT_CACHE = new HashMap<Integer,OpenStreetMapSearchResult>();
-    
+
     private OpenStreetMapSearchResult getResult(int place_id, String source) throws SQLException {
-        
+
         OpenStreetMapSearchResult result = RESULT_CACHE.get(place_id);
-        
+
         if (result == null) {
             result = new OpenStreetMapSearchResult();
 
@@ -219,10 +219,10 @@ public class OpenStreetMapSearch {
             result_placex.next();
             result.readValuesFromPlacexResult(result_placex);
             result_placex.close();
-            
+
             RESULT_CACHE.put(place_id, result);
         }
-        
+
         return result;
     }
 
@@ -349,13 +349,13 @@ public class OpenStreetMapSearch {
 //				if (array2.contains(null)) {
 //					System.out.println("argh");
 //				}
-//				
+//
 //				for (Object obj : array2) {
 //					if (!(obj instanceof String)) {
 //						"".toString();
 //					}
 //				}
-//				
+//
 //						String[] array3 = array2.toArray(new String[0]);
 //				List<String> members = Arrays.asList(array3);
             if (kind == kind.DontKnow || kind == kind.Way) {

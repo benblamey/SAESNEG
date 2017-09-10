@@ -1,4 +1,4 @@
-package benblamey.saesneg.model;
+package com.benblamey.saesneg.model;
 
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;

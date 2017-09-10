@@ -1,10 +1,10 @@
-package benblamey.saesneg.model.datums;
+package com.benblamey.saesneg.model.datums;
 
-import benblamey.core.DateUtil;
-import benblamey.saesneg.evaluation.DatumWebProperty;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
+import com.benblamey.core.DateUtil;
+import com.benblamey.saesneg.evaluation.DatumWebProperty;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.phaseA.text.gatesubdocument.GateSubDocumentWriter;
 import com.restfb.types.Link;
 import gate.util.InvalidOffsetException;
 import java.io.IOException;

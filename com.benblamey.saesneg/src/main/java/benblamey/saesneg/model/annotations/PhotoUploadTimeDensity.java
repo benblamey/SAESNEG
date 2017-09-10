@@ -1,6 +1,6 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
-import benblamey.core.DateUtil;
+import com.benblamey.core.DateUtil;
 import edu.stanford.nlp.time.distributed.TimeDensityFunction;
 import java.util.Date;
 import org.joda.time.DateTime;

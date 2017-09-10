@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
 public enum DatumsScope {
     AllDatums,

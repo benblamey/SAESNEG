@@ -1,16 +1,16 @@
-package benblamey.saesneg.phaseB;
+package com.benblamey.saesneg.phaseB;
 
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.model.LifeStory;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.phaseB.strategies.EventsStrategy;
-import benblamey.saesneg.phaseB.strategies.FriendsStrategy;
-import benblamey.saesneg.phaseB.strategies.KindStrategy;
-import benblamey.saesneg.phaseB.strategies.SceneStrategy;
-import benblamey.saesneg.phaseB.strategies.SpatialStrategy;
-import benblamey.saesneg.phaseB.strategies.Strategy;
-import benblamey.saesneg.phaseB.strategies.TemporalStrategy;
-import benblamey.saesneg.phaseB.strategies.UserHelpStrategy;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.model.LifeStory;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.phaseB.strategies.EventsStrategy;
+import com.benblamey.saesneg.phaseB.strategies.FriendsStrategy;
+import com.benblamey.saesneg.phaseB.strategies.KindStrategy;
+import com.benblamey.saesneg.phaseB.strategies.SceneStrategy;
+import com.benblamey.saesneg.phaseB.strategies.SpatialStrategy;
+import com.benblamey.saesneg.phaseB.strategies.Strategy;
+import com.benblamey.saesneg.phaseB.strategies.TemporalStrategy;
+import com.benblamey.saesneg.phaseB.strategies.UserHelpStrategy;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,7 +33,7 @@ public class ClusteringStrategies {
     private ArrayList<Strategy> getStrategies(final LifeStory ls, UserContext user) {
         ArrayList<Strategy> festibus = new ArrayList<Strategy>();
         if (_options.Strategies.contains(FriendsStrategy.class)) {
-            festibus.add(new FriendsStrategy(ls, user)); // Friends    
+            festibus.add(new FriendsStrategy(ls, user)); // Friends
         }
         if (_options.Strategies.contains(EventsStrategy.class)) {
             festibus.add(new EventsStrategy(ls));// Events
@@ -54,7 +54,7 @@ public class ClusteringStrategies {
         }
         if (_options.Strategies.contains(KindStrategy.class)) {
             festibus.add(new KindStrategy()); // ??
-        }    
+        }
         return festibus;
     }
 

@@ -1,7 +1,7 @@
-package benblamey.saesneg.phaseA.text.eval;
+package com.benblamey.saesneg.phaseA.text.eval;
 
-import benblamey.core.GATE.GateUtils2;
-import benblamey.saesneg.phaseA.text.nerpaper.OSMExperimentMain;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.saesneg.phaseA.text.nerpaper.OSMExperimentMain;
 import gate.Annotation;
 import gate.Document;
 import gate.util.InvalidOffsetException;

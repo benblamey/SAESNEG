@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseA.text.gatesubdocument;
+package com.benblamey.saesneg.phaseA.text.gatesubdocument;
 
-import benblamey.core.GATE.GateUtils2;
+import com.benblamey.core.GATE.GateUtils2;
 import gate.Document;
 import gate.Factory;
 import gate.FeatureMap;

@@ -1,4 +1,4 @@
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
 import com.benblamey.core.SystemArchitecture;
 import com.benblamey.core.SystemInfo;
@@ -35,7 +35,7 @@ public abstract class PipelineContext {
                     this.DAEMON_ADD_LIFE_STORY_INFO = true;
                     this.DB = "SocialWorld";
                     break;
-                
+
                 case BENBLAMEY_OVH_STAGING:
                     this.LAST_YEAR_ONLY = true;
                     this.USE_MYSQL_CACHE = false;
@@ -45,7 +45,7 @@ public abstract class PipelineContext {
                     this.DAEMON_ADD_LIFE_STORY_INFO = true;
                     this.DB = "SocialWorld";
                 break;
-                
+
                 case LOCAL_MACHINE:
                     // CONFIG FOR **WINDOWS**
                     this.LAST_YEAR_ONLY = true;
@@ -68,29 +68,29 @@ public abstract class PipelineContext {
             } else {
                 // For Dev system,
                 BasicDBObject append = new BasicDBObject()
-                        
+
                 //.append("LIFE_STORY_INFOS.SUCCESS", true) // Select only users for whom we have a valid life story.
                 .append("GROUND_TRUTH_EVENTS", new BasicDBObject() { // Where the user has created ground truth events.
                     {
                         append("$exists", true);// Where the user has created ground truth events.
                     }
                 })
-                
+
                 .append("FACEBOOK_USER_ID", new BasicDBObject() {
                     {
-                        append("$nin", Arrays.asList( 
+                        append("$nin", Arrays.asList(
                                     "836555706",  // Exclude "Muhamed Mustafa". Uncertainty re: which LS to load. lots of arabic text.
                                     "100005149806497" // Exclude "Felix Smith". Garbage event ground truth.
                                 ) );
                     }
                 })
-                    
+
 //                .append("FACEBOOK_USER_ID", new BasicDBObject() {
 //                    {
-//                        append("$ne", ); 
+//                        append("$ne", );
 //                    }
 //                })
-                
+
 
                 ;
                 System.out.println("Note: ***User Filter is Active***!" + append.toString());

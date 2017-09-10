@@ -1,12 +1,12 @@
-package benblamey.saesneg.experiments.configs;
+package com.benblamey.saesneg.experiments.configs;
 
-import benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
-import benblamey.saesneg.PipelineContext;
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.experiments.ExperimentSet;
-import benblamey.saesneg.experiments.LifeStorySelectionStrategy;
-import benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
+import com.benblamey.saesneg.PipelineContext;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.experiments.ExperimentSet;
+import com.benblamey.saesneg.experiments.LifeStorySelectionStrategy;
+import com.benblamey.saesneg.phaseA.text.ProcessTextOptions;
 
 public class PhaseAOnlyCachedExperimentSet {
 

@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.annotations.socialevents;
+package com.benblamey.saesneg.model.annotations.socialevents;
 
 import gate.Factory;
 import gate.FeatureMap;

@@ -1,4 +1,4 @@
-package benblamey.eventparser;
+package com.benblamey.eventparser;
 
 import edu.stanford.nlp.ie.NumberNormalizer;
 import edu.stanford.nlp.ling.CoreAnnotations;

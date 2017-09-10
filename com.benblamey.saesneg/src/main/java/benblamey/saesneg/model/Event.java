@@ -1,6 +1,6 @@
-package benblamey.saesneg.model;
+package com.benblamey.saesneg.model;
 
-import benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.datums.Datum;
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import java.util.ArrayList;

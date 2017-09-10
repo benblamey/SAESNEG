@@ -1,11 +1,11 @@
-package benblamey.saesneg.phaseA.image;
+package com.benblamey.saesneg.phaseA.image;
 
 import at.lux.imageanalysis.ColorLayoutImpl;
 import at.lux.imageanalysis.EdgeHistogramImplementation;
 import at.lux.imageanalysis.ScalableColorImpl;
 import at.lux.imageanalysis.VisualDescriptor;
-import benblamey.saesneg.model.annotations.DataKind;
-import benblamey.saesneg.model.annotations.ImageContentAnnotation;
+import com.benblamey.saesneg.model.annotations.DataKind;
+import com.benblamey.saesneg.model.annotations.ImageContentAnnotation;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import javax.imageio.ImageIO;
@@ -17,7 +17,7 @@ public class ImageFeatureExtractor {
     public static String ColorLayout = "ColorLayout";
 
     public static ImageFeatureExtractor Instance = new ImageFeatureExtractor();
-    
+
     private ImageMetadataCache _cache = new ImageMetadataCache();
 
 
@@ -30,14 +30,14 @@ public class ImageFeatureExtractor {
                 || // https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/163775_10150143159126217_5955414_n.jpg?lvh=1
                 url.contains(".jpg?") || url.contains(".jpeg?");
     }
-    
+
     public ImageContentAnnotation createImageAnnotation(String url) {
-        
+
         ImageContentAnnotation anno = new ImageContentAnnotation();
         anno.SourceDataKind = DataKind.Image;
-        
+
         ReusableImageStream s = new ReusableImageStream(url); // Doesn't actually read anything immediately.
-        
+
         try {
             anno.setEdgeHistogram(getEdgeHistogram(url, s));
             anno.setScalableColor(getScalableColor(url, s));
@@ -45,7 +45,7 @@ public class ImageFeatureExtractor {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        
+
         return anno;
     }
 
@@ -88,7 +88,7 @@ public class ImageFeatureExtractor {
         return ehi;
     }
 
-//  
+//
 //  public float computeSimilarity(String file1, String file2) {
 //      ArrayList<VisualDescriptor> get1 = _features.get(file1);
 //      ArrayList<VisualDescriptor> get2 = _features.get(file2);
@@ -104,7 +104,7 @@ public class ImageFeatureExtractor {
 //  }
 //    private void timeExtraction(String key, String fileName) throws IOException {
 //
-//    	
+//
 //        long time;
 //        int countRuns = 5;
 //
@@ -148,7 +148,7 @@ public class ImageFeatureExtractor {
 ////            metadata.add(dc);
 ////        }
 ////        System.out.println("DominantColor took " + ((float) (System.currentTimeMillis() - time) / (float) countRuns) + " ms each");
-////        
+////
 //        _features.put(fileName, metadata);
 //
 //        //Serializer.writeToFile(fileName + ".ser", metadata);

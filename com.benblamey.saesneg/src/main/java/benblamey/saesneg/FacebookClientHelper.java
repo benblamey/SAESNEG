@@ -1,13 +1,13 @@
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
-import benblamey.core.DateUtil;
-import benblamey.core.facebook.CachedDefaultWebRequestor;
-import benblamey.core.facebook.ErrorMapper;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.model.datums.DatumCollection;
-import benblamey.saesneg.model.datums.DatumEvent;
-import benblamey.saesneg.model.datums.DatumPhoto;
+import com.benblamey.core.DateUtil;
+import com.benblamey.core.facebook.CachedDefaultWebRequestor;
+import com.benblamey.core.facebook.ErrorMapper;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.datums.DatumCollection;
+import com.benblamey.saesneg.model.datums.DatumEvent;
+import com.benblamey.saesneg.model.datums.DatumPhoto;
 import com.benblamey.core.logging.Logger;
 import com.benblamey.core.logging.PlainTextLogger;
 import com.restfb.Connection;

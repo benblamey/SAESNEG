@@ -1,7 +1,7 @@
-package benblamey.saesneg.experiments;
+package com.benblamey.saesneg.experiments;
 
-import benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
-import benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
+import com.benblamey.saesneg.phaseA.text.ProcessTextOptions;
 import com.mongodb.DBObject;
 
 /**
@@ -23,8 +23,8 @@ public class ExperimentOptions {
      * The options for Phase A text processing.
      */
     public ProcessTextOptions _textOptions;
-    
-    
+
+
     /**
      * Whether to geocode metadata.
      */

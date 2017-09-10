@@ -1,7 +1,7 @@
-package benblamey.saesneg.review;
+package com.benblamey.saesneg.review;
 
-import benblamey.saesneg.model.Event;
-import benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.Event;
+import com.benblamey.saesneg.model.UserContext;
 import java.io.FileWriter;
 import java.util.List;
 import org.apache.velocity.Template;

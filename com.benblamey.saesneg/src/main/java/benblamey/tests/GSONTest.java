@@ -1,7 +1,7 @@
 /**
  *
  */
-package benblamey.tests;
+package com.benblamey.tests;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;

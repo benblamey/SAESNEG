@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseB;
+package com.benblamey.saesneg.phaseB;
 
 public enum FestibusFeatures {
 
@@ -9,12 +9,12 @@ public enum FestibusFeatures {
     // Friends
     /////////////
     Friends_InCommon,
-    
+
     /////////////
     // Events (well-known)
     /////////////
     Events,
-    
+
     /////////////
     // Spatial
     /////////////
@@ -37,7 +37,7 @@ public enum FestibusFeatures {
     Scene_scColor,
     Scene_edgeHistogram,
     //Scene_identicalPhoto,
-    
+
     /////////////
     // Kind
     /////////////

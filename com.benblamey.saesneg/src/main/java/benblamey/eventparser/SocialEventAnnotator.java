@@ -1,4 +1,4 @@
-package benblamey.eventparser;
+package com.benblamey.eventparser;
 
 import edu.stanford.nlp.ie.regexp.NumberSequenceClassifier;
 import edu.stanford.nlp.ling.CoreAnnotation;

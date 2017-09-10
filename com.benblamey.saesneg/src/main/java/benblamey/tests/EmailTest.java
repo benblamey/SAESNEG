@@ -1,6 +1,6 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
-import benblamey.core.Email;
+import com.benblamey.core.Email;
 import javax.mail.MessagingException;
 
 public class EmailTest {

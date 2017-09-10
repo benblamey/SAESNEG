@@ -1,6 +1,6 @@
-package benblamey.saesneg.phaseA.text.nerpaper;
+package com.benblamey.saesneg.phaseA.text.nerpaper;
 
-import benblamey.nominatim.OpenStreetMapSearchResult;
+import com.benblamey.nominatim.OpenStreetMapSearchResult;
 
 public class GoldNotInOSMException extends Exception {
 

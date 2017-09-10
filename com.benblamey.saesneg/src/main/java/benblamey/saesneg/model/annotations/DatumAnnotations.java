@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class DatumAnnotations {
     public final List<DatumsInUserStructureAnnotation> UserStructureAnnotations = new ArrayList<>();
     public final List<TemporalAnnotation> DateTimesAnnotations = new ArrayList<>();
     public final List<ImageContentAnnotation> ImageContentAnnotations = new ArrayList<>();
-    
+
     public List<Annotation> getAllAnnotations() {
         // no yield return in java.
         List<Annotation> all = new ArrayList<Annotation>();
@@ -21,7 +21,7 @@ public class DatumAnnotations {
         all.addAll(UserStructureAnnotations);
         all.addAll(DateTimesAnnotations);
         all.addAll(ImageContentAnnotations);
-        
+
         return all;
     }
 

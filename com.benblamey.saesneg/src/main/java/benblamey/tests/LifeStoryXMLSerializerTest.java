@@ -1,6 +1,6 @@
-package benblamey.tests;
+package com.benblamey.tests;
 
-import benblamey.saesneg.serialization.LifeStoryXMLSerializer;
+import com.benblamey.saesneg.serialization.LifeStoryXMLSerializer;
 import org.junit.Test;
 
 public class LifeStoryXMLSerializerTest {

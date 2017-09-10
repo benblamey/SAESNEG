@@ -1,18 +1,18 @@
-package benblamey.saesneg.phaseA.text.nerpaper;
+package com.benblamey.saesneg.phaseA.text.nerpaper;
 
-import benblamey.core.GATE.GateUtils2;
-import benblamey.nominatim.OpenStreetMapBasicOrdering;
-import benblamey.nominatim.OpenStreetMapElementKind;
-import benblamey.nominatim.OpenStreetMapSearch;
-import benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
-import benblamey.nominatim.OpenStreetMapSearchResult;
-import benblamey.saesneg.ExperimentUserContext;
-import benblamey.saesneg.Users;
-import benblamey.saesneg.model.UserContext;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.phaseA.text.GATEFileKind;
-import benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
-import benblamey.saesneg.serialization.LifeStoryInfo;
+import com.benblamey.core.GATE.GateUtils2;
+import com.benblamey.nominatim.OpenStreetMapBasicOrdering;
+import com.benblamey.nominatim.OpenStreetMapElementKind;
+import com.benblamey.nominatim.OpenStreetMapSearch;
+import com.benblamey.nominatim.OpenStreetMapSearchAlgorithmOptions;
+import com.benblamey.nominatim.OpenStreetMapSearchResult;
+import com.benblamey.saesneg.ExperimentUserContext;
+import com.benblamey.saesneg.Users;
+import com.benblamey.saesneg.model.UserContext;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.phaseA.text.GATEFileKind;
+import com.benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
+import com.benblamey.saesneg.serialization.LifeStoryInfo;
 import com.benblamey.core.classifier.naivebayes.Classifier;
 import com.mongodb.DBObject;
 import gate.Annotation;
@@ -77,7 +77,7 @@ public class OSMExperimentMain {
 
         //train();
         writer.close();
-//		
+//
 //		test();
 
     }
@@ -294,9 +294,9 @@ public class OSMExperimentMain {
     }
 
 //	Document goldDoc = ProcessText.loadGATEDoc(goldFile.getAbsolutePath());
-//	
+//
 //	AnnotationSet goldAnnotations = goldDoc.getAnnotations("gold").get("location");
-//	
+//
 //	for (Annotation goldAnnotation : goldAnnotations) {
 //		Object osm_idObj = goldAnnotation.getFeatures().get("osm_id");
 //		Long osm_id;
@@ -306,21 +306,21 @@ public class OSMExperimentMain {
 //			System.out.println("EXCEPTION " + goldAnnotation.getStartNode().toString());
 //			throw e;
 //		}
-//		
+//
 //		if (osm_id <= 0) {
 //			System.out.println("WARNING - Missing Annotation - " + goldDoc.getContent().getContent(
 //					goldAnnotation.getStartNode().getOffset(),
 //					goldAnnotation.getEndNode().getOffset()));
 //		}
-//		
+//
 //		OpenStreetMapSearchResult search_for_osm_id = this._search.search_for_osm_id(osm_id, OpenStreetMapElementKind.DontKnow);
-//		
+//
 //		if (search_for_osm_id == null) {
-//			
+//
 //			System.out.println("Can't find gold annotation " + osm_id + " looking for parents.");
-//			
+//
 //			List<Map<String, Object>> findParentRelations = this._search.findParentRelations(osm_id, OpenStreetMapElementKind.DontKnow);
-//			
+//
 //			System.out.println("\tFound " + findParentRelations.size() + " parents.");
 //			for (Map<String, Object> parent : findParentRelations) {
 //				System.out.println("\t"+parent.get("RELATIONSHIP") + " id: " + parent.get("id"));
@@ -330,42 +330,42 @@ public class OSMExperimentMain {
 //
 //}
 //private ArrayList<File> load2() {
-//	
+//
 //	Collection<File> allXMLFiles = FileUtils.listFiles(new File("C:/work/data/output"), new String[] {"xml"}, true); // Recursive.
 //	ArrayList<File> goldXMLfiles = new ArrayList<>();
-//	
+//
 ////	File dir = ;
 ////	File[] listFiles = dir.listFiles(new FileFilter() {
-////		
+////
 ////		@Override
 ////		public boolean accept(File pathname) {
 ////			String filename = pathname.getName();
-////			return 
+////			return
 ////		}
 ////	});
-//	
+//
 //	for (File filename : allXMLFiles) {
 //		if (filename.getName().endsWith("gold.xml")) {
 //			goldXMLfiles.add(filename);
 //			//System.out.println(filename);
 //		}
 //	}
-//	
+//
 //	return goldXMLfiles;
 //}
 //	private ArrayList<String> computeFeatures(Document doc, boolean isTrue, Annotation locationAnnotation, OpenStreetMapSearchResult osm) throws InvalidOffsetException, IOException {
-//		
-//		
-//		
+//
+//
+//
 //		ArrayList<String> results = new ArrayList<>();
 //
 //		results.add("RANK_SEARCH_"+ osm.rank_search);
-//		
+//
 //		//AnnotationSet annotationSet = gold.getAnnotations().get("Token");
-//		
+//
 //		//annotationSet = annotationSet.get(locationAnnotation.getStartNode().getOffset(), locationAnnotation.getEndNode().getOffset());
 //
-//		
+//
 //		int numTokens = 0;
 //		Iterator<Annotation> iterator = annotationSet.iterator();
 //		String debugText = "";
@@ -379,27 +379,27 @@ public class OSMExperimentMain {
 //			debugText += "-" + next.getFeatures().get("string");
 //		}
 //		results.add("NUM_TOKENS_"+ numTokens);
-//		
-//		//System.out.println("candidate text: "  + debugText); 
+//
+//		//System.out.println("candidate text: "  + debugText);
 //		//+ gold.getContent().getContent(ben_location.getStartNode().getOffset(), ben_location.getEndNode().getOffset()));
-//		
-//		
+//
+//
 //		// For the time being, just look at the first token.
 //		Annotation next = annotationSet.iterator().next();
 //		FeatureMap features = next.getFeatures();
 //
 //		results.add("GATE_FIRST_TOKEN_CATEGORY_"+ features.get("category"));
 //		results.add("GATE_FIRST_TOKEN_KIND_"+ features.get("kind"));
-//		
+//
 //		results.add("GATE_FIRST_TOKEN_LENGTH_"+ features.get("length"));
-//		
+//
 //		results.add("GATE_FIRST_TOKEN_ORTH_"+ features.get("orth"));
-//		
-//		this.writer.append(isTrue + ","  + (Integer)osm.rank_search + "," + features.get("category") 
+//
+//		this.writer.append(isTrue + ","  + (Integer)osm.rank_search + "," + features.get("category")
 //				+ "," + features.get("kind") + "," + features.get("length") + "," + features.get("orth")+ ","+ numTokens);
 //		this.writer.newLine();
-//		
-//		
+//
+//
 //		return results;
 //	}
 }

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
 public enum DataKind {
     Text,

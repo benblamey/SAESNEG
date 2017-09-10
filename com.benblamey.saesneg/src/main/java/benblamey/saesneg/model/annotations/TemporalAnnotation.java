@@ -1,4 +1,4 @@
-package benblamey.saesneg.model.annotations;
+package com.benblamey.saesneg.model.annotations;
 
 import edu.stanford.nlp.time.Timex;
 import edu.stanford.nlp.time.distributed.TimeDensityFunction;
@@ -44,13 +44,13 @@ public class TemporalAnnotation extends Annotation {
     public Timex getTimex() {
         return _timex;
     }
-    
+
     public boolean isDefinitive;
 
     @Override
     public String toString() {
         return ((_timex != null)  ? _timex.toString() : "") + " " + ((this._density != null) ? this._density.toString() : "");
     }
-    
-    
+
+
 }

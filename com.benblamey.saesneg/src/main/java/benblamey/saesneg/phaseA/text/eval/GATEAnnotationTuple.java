@@ -1,4 +1,4 @@
-package benblamey.saesneg.phaseA.text.eval;
+package com.benblamey.saesneg.phaseA.text.eval;
 
 import gate.Annotation;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package benblamey.saesneg;
+package com.benblamey.saesneg;
 
-import benblamey.core.MongoClientInstance;
+import com.benblamey.core.MongoClientInstance;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;

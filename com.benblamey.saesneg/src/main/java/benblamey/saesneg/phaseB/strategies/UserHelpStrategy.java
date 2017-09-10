@@ -1,12 +1,12 @@
-package benblamey.saesneg.phaseB.strategies;
+package com.benblamey.saesneg.phaseB.strategies;
 
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.model.datums.Datum;
-import benblamey.saesneg.model.datums.DatumAlbum;
-import benblamey.saesneg.model.datums.DatumPhoto;
-import benblamey.saesneg.phaseB.DatumPairSimilarity;
-import benblamey.saesneg.phaseB.DatumSimilarityEvidence;
-import benblamey.saesneg.phaseB.FestibusFeatures;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.model.datums.Datum;
+import com.benblamey.saesneg.model.datums.DatumAlbum;
+import com.benblamey.saesneg.model.datums.DatumPhoto;
+import com.benblamey.saesneg.phaseB.DatumPairSimilarity;
+import com.benblamey.saesneg.phaseB.DatumSimilarityEvidence;
+import com.benblamey.saesneg.phaseB.FestibusFeatures;
 
 public class UserHelpStrategy extends Strategy {
 

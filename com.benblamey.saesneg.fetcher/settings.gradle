@@ -5,3 +5,6 @@ project(':com.benblamey.core').projectDir = new File(settingsDir, '../../com.ben
 
 include ':com.benblamey.saesneg'
 project(':com.benblamey.saesneg').projectDir = new File(settingsDir, '../com.benblamey.saesneg')
+
+include ':com.benblamey.saesneg.core'
+project(':com.benblamey.saesneg.core').projectDir = new File(settingsDir, '../com.benblamey.saesneg.core')

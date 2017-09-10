@@ -1,10 +1,10 @@
-package benblamey.saesneg.experiments.configs;
+package com.benblamey.saesneg.experiments.configs;
 
-import benblamey.saesneg.experiments.Experiment;
-import benblamey.saesneg.experiments.ExperimentOptions;
-import benblamey.saesneg.experiments.ExperimentSet;
-import benblamey.saesneg.experiments.PhaseBOptions;
-import benblamey.saesneg.phaseA.text.ProcessTextOptions;
+import com.benblamey.saesneg.experiments.Experiment;
+import com.benblamey.saesneg.experiments.ExperimentOptions;
+import com.benblamey.saesneg.experiments.ExperimentSet;
+import com.benblamey.saesneg.experiments.PhaseBOptions;
+import com.benblamey.saesneg.phaseA.text.ProcessTextOptions;
 import com.mongodb.BasicDBObject;
 
 public class PhaseBOnly_Train_ExperimentSet {

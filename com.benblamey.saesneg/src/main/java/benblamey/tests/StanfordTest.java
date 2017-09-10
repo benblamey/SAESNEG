@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package benblamey.tests;
+package com.benblamey.tests;
 
-import benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
+import com.benblamey.saesneg.phaseA.text.stanford.StanfordNLPService;
 
 public class StanfordTest {
     public static void main(String args[]) {

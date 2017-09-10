@@ -1,6 +1,6 @@
-package benblamey.saesneg.serialization;
+package com.benblamey.saesneg.serialization;
 
-import benblamey.core.DateUtil;
+import com.benblamey.core.DateUtil;
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;

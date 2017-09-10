@@ -1,11 +1,11 @@
-package benblamey.saesneg.phaseA.text.stanford;
+package com.benblamey.saesneg.phaseA.text.stanford;
 
-import benblamey.eventparser.SocialEventAnnotator;
-import benblamey.eventparser.SocialEventAnnotatorOptions;
-import benblamey.eventparser.SocialEventExpression;
-import benblamey.saesneg.model.annotations.DataKind;
-import benblamey.saesneg.model.annotations.TemporalAnnotation;
-import benblamey.saesneg.model.annotations.socialevents.SocialEventAnnotation;
+import com.benblamey.eventparser.SocialEventAnnotator;
+import com.benblamey.eventparser.SocialEventAnnotatorOptions;
+import com.benblamey.eventparser.SocialEventExpression;
+import com.benblamey.saesneg.model.annotations.DataKind;
+import com.benblamey.saesneg.model.annotations.TemporalAnnotation;
+import com.benblamey.saesneg.model.annotations.socialevents.SocialEventAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -67,8 +67,8 @@ public class StanfordNLPService {
             // ---TOKENIZE---
             // "separates words only when whitespace is encountered. "
             props.put("tokenize.whitespace", "true");
-            
-            
+
+
             // ---SSPLIT---
             // always = "a newline is always a sentence break (but there still may be multiple sentences per line)."
             props.put("ssplit.newlineIsSentenceBreak", "always");
@@ -82,24 +82,24 @@ public class StanfordNLPService {
                 + "edu/stanford/nlp/models/sutime/english.holidays.sutime.txt");
 
             props.put("sutime.verbose", "true");
-            
-            
+
+
           // props.put("sutime.binders", "0");
 
-            
-            
-            
-            
+
+
+
+
              // ---POS---
             // ner requires pos
              String uri = "edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger";
              props.put("pos.model", uri);
             // --NER--
-             
+
             String uri2 = "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz";
-             props.put("ner.model", uri2); 
-             
-             
+             props.put("ner.model", uri2);
+
+
             StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
             // Add our custom event annotator.
@@ -116,14 +116,14 @@ public class StanfordNLPService {
 				// "C:/work/data/event_rules.txt";
 				pipeline.addAnnotator(new SocialEventAnnotator("benevents", options));
 			}
-                        
 
-                        
-                        
+
+
+
             pipeline.addAnnotator(new TimeAnnotator("sutime", props));
-                        
-                        
-            
+
+
+
 
             // AnnotationPipeline pipeline = new AnnotationPipeline();
             // if (tokenize) {
@@ -144,7 +144,7 @@ public class StanfordNLPService {
             //
              pipeline.addAnnotator(new WordsToSentencesAnnotator(true, end_of_sentence_regex)); // true to debug
             // }
-                        
+
             _pipeline = pipeline;
         }
 
@@ -173,7 +173,7 @@ public class StanfordNLPService {
         // class edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation
         // class stanford.events.EventAnnotations$SocialEventAnnotations
 
-        
+
         // Copy annotations from the Stanford pipeline to GATE.
         copyTokenAnnotations(doc, annotations, log);
         copyTempexAnnotations(doc, annotations, log);
@@ -282,7 +282,7 @@ public class StanfordNLPService {
     private static void copyTempexAnnotations(Document doc, Annotation annotations, PrintStream log) throws InvalidOffsetException {
         List<CoreMap> timexes = annotations.get(TimeAnnotations.TimexAnnotations.class);
         DocumentContent content = doc.getContent();
-        
+
         if (timexes != null) {
             for (CoreMap timexannotation : timexes) {
 
@@ -293,11 +293,11 @@ public class StanfordNLPService {
                 tempex.setDensity(timexannotation.get(TimePDF.TimePDFAnnotation.class));
                 tempex.SourceDataKind = DataKind.Text;
                 tempex.isDefinitive = false;
-                
+
 
                 Integer start = timexannotation.get(CoreAnnotations.CharacterOffsetBeginAnnotation.class);
                 Integer end = timexannotation.get(CoreAnnotations.CharacterOffsetEndAnnotation.class);
-                
+
                 tempex.setOriginalText( content.getContent(new Long(start),new Long(end)).toString());
 
                 FeatureMap newFeatureMap = Factory.newFeatureMap();
@@ -311,6 +311,6 @@ public class StanfordNLPService {
             log.println(StanfordNLPService.class.getName() + ": no tempex annotations found, skipping.");
         }
     }
-    
+
 
 }

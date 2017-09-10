@@ -1,4 +1,4 @@
-package benblamey.saesneg.experiments.configs;
+package com.benblamey.saesneg.experiments.configs;
 
 public class UserIDs {
 

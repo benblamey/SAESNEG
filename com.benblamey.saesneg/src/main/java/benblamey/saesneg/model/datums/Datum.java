@@ -1,7 +1,7 @@
 package com.benblamey.saesneg.model.datums;
 
 import com.benblamey.core.GATE.GateUtils2;
-import com.benblamey.core.googlegeocode.GoogleGeoCode;
+//import com.benblamey.core.googlegeocode.GoogleGeoCode;
 import com.benblamey.eventparser.SocialEventExpression;
 import com.benblamey.gnuplot.GnuPlot;
 import com.benblamey.gnuplot.GnuPlotResult;

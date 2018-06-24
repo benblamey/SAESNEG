@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="com.benblamey.saesneg.evaluation" external.linked.project.path="$MODULE_DIR$/../../com.benblamey.saesneg.evaluation" external.root.project.path="$MODULE_DIR$/../../com.benblamey.saesneg.evaluation" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../com.benblamey.saesneg.evaluation" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="gradle-wrapper" level="project" />
+  </component>
+</module>

@@ -64,7 +64,7 @@ dependencies {
 
   compile fileTree(dir: '../lib/jung2-2_0_1', include: '*.jar')
 
-  compile group: 'org.openrdf.sesame', name: 'sesame-model', version: '2.6.8'
+  compile group: 'org.openrdf.sesame', name: 'sesame-model', version: '2.6.10'
 
   compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
 

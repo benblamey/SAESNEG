@@ -8,6 +8,8 @@
 /benblamey.evaluation/build/
 /benblamey.evaluation/web/gnuplots/*.png
 
-**/.idea
+
 **/.gradle
+**/build
 **/out
+**.tmp

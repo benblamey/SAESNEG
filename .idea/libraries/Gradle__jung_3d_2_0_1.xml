@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: jung-3d-2.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jung2-2_0_1/jung-3d-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

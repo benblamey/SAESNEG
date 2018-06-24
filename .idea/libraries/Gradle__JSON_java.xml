@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: JSON-java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JSON-java/dist/JSON-java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.uima:uimaj-core:2.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.uima/uimaj-core/2.4.0/a1b6ea9217f486ec82ff208b8db3e7cbac66181d/uimaj-core-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.uima/uimaj-core/2.4.0/8b71dff59116b0e6385581c19bc16d7e7d7cf77/uimaj-core-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

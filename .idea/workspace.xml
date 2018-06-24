@@ -2,120 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="898bdd95-f584-4583-9ba8-692192a8189f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__JSON_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__caliph_emir_ben_2016_02_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__collections_generic_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__colt_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_drewnoakes_metadata_extractor_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_restfb_restfb_1_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_xstream_xstream_1_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_unihd_dbs_heideltime_standalone.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gnu_getopt_java_getopt_1_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__j3d_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jaxen_jaxen_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_3d_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_3d_demos_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_algorithms_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_graph_impl_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_io_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_jai_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_jai_samples_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_samples_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jung_visualization_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_extjwnl_extjwnl_1_6_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ivy_ivy_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_core_0_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_james_apache_mime4j_dom_0_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_pdfbox_fontbox_1_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_pdfbox_jempbox_1_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_pdfbox_pdfbox_1_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_3_10_beta2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_ooxml_3_10_beta2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_ooxml_schemas_3_10_beta2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_scratchpad_3_10_beta2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tika_tika_core_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tika_tika_parsers_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_uima_uimaj_core_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcmail_jdk15_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_woodstox_stax2_api_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_woodstox_woodstox_core_lgpl_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jdom_jdom_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongo_java_driver_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openrdf_sesame_sesame_model_2_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openrdf_sesame_sesame_util_2_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_postgresql_postgresql_9_3_1101_jdbc41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_2_5_6_SEC01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_2_5_6_SEC01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_2_5_6_SEC01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xhtmlrenderer_flying_saucer_core_9_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_ac_gate_gate_asm_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_ac_gate_gate_compiler_jdt_4_3_2_P20140317_1600.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_ac_gate_gate_core_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__vecmath_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_apis_xml_apis_1_3_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlunit_xmlunit_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_xpp3_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-219119243/com.benblamey.core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/870020035/com.benblamey.saesneg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saesneg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benblamey/nbproject/___E5B6.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benblamey/nbproject/private/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benblamey/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benblamey/nbproject/private/private.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.evaluation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.evaluation/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.evaluation/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.evaluation/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/Datum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/Datum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/-219119243/com.benblamey.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-219119243/com.benblamey.core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/870020035/com.benblamey.saesneg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/benblamey.saesneg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/build.xml.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Experiment.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Experiment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Experiment.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Festibus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Festibus.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Fetcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Fetcher.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/Framework.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/ImageAnnotation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/ImageAnnotations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/ImageAnnotations.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/PersonAnnotation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/PersonAnnotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/PersonAnnotation.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/PhaseA_Text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/PhaseA_Text.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/SocialEventAnnotations.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/SocialEventAnnotations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/SocialEventAnnotations.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/SocialEventAnnotator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/SocialEventAnnotator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/SocialEventAnnotator.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/classdiagrams/TemporalAnnotation.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/SocialEventAnnotator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/SocialEventAnnotatorOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/SocialEventExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/SocialEventExpressionExtractorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/SocialEventExpressionPatterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/SocialEventExpressionPatternsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/eventparser/eventrules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/gnuplot/GnuPlot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/gnuplot/GnuPlotResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/BuildNewTablesMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/LegacyNominatimOpenStreetMapSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/NameLookupStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/OpenStreetMapBasicOrdering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/OpenStreetMapConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/OpenStreetMapElementKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/OpenStreetMapSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/OpenStreetMapSearchAlgorithmOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/OpenStreetMapSearchResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/tests/OpenStreetMapSearchResultTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/tests/Participant1BonfireNightFunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/nominatim/tests/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/ExperimentUserContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/FacebookClientHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/Fetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/MelsnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/PipelineContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/WhichLifeStoryToLoad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/evaluation/DatumWebProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/DatumsScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/EdgeClassifierMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/Experiment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/ExperimentOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/ExperimentResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/ExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/IExperimentContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/LibSVMGoldActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/LifeStorySelectionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/PhaseBOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/AllUsers_NoProcessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/FullPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/FullPipelineNoOSMExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/FullPipeline_PhaseB_X_Pajek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/FullPipelne_Offline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/Minimal_ExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/Participant1_NoProcessing_Thesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/PhaseAOnlyCachedExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/PhaseAOnlyExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/PhaseAOnly_MetadataOnly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/PhaseBOnly_Predict_ExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/PhaseBOnly_Train_ExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/PhaseBOnly_XValidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/Thesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/TomcatExperimentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/experiments/configs/UserIDs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/geonames/GeoNamesPlace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/geonames/GeonamesLookup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/googlegeocode/GoogleGeoCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/googlegeocode/GoogleGeoCodeTestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/LifeStory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/PartialEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/UserContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/Annotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/DataKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/DatumAnnotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/DatumsInUserStructureAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/ImageContentAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/LocationAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/PersonAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/PhotoUploadTimeDensity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/SingleDayTimeDensity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/TemporalAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/socialevents/BirthdaySocialEventAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/socialevents/SocialEventAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/annotations/socialevents/WeddingSocialEventAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/Datum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumCheckin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumPhoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/DatumStatusMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/image/ImageFeatureExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/image/ImageMetadataCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/image/ReusableImageStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/metadata/ProcessMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/GATEFileKind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/GateSubDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/GateToolsMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/ProcessText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/ProcessTextOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/eval/AnnotationTupleLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/eval/GATEAnnotationEvaluator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/eval/GATEAnnotationTuple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocumentReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocumentWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/gatesubdocument/GateSubDocumentWriterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/nerpaper/GoldLabelling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/nerpaper/GoldMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/nerpaper/GoldNotInOSMException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/nerpaper/OSMExperimentMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/nerpaper/SamePlaceCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/stanford/StanfordNLPService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseA/text/stanford/StanfordNLPTestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/ClusteringStrategies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/DatumPairSimilarity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/DatumSimilarityEvidence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/FestibusFeatures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/IEdgeClassifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/SVMEdgeClassifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/clingo/ClingoDateSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/clingo/ClingoWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/eval/EventMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/eval/FileDiffEventMatcherOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/eval/IEventMatcherOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/old/EventSimilarity_OLD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/old/GreedyDatumClustering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/EventsStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/FriendsStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/KindStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/SceneStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/SpatialStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/TemporalStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/strategies/UserHelpStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/phaseB/test_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/CheckDocsTheSameMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/EventsToPAJEK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/GenerateParticipationReportMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/HTMLDiary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/PairwiseClusteringEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/TestLoadOldParticipant3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/VelocityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/diary.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/review/report.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/serialization/LifeStoryInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/serialization/LifeStoryJsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/serialization/LifeStoryXMLSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tempex_paper/flickr_tempex/flickr_tempex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/DeserializeAllLifeStoriesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/EmailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/FetcherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/GSONTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/GSONTestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/ImageMetadataCacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/ImageSimilarityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/InitGateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/LifeStoryXMLSerializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/Math2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/OnmiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/OnmiToJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/StanfordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/StringUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/tests/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/com/restfb/restfb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/com/restfb/types/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/socialworld/model/CrossAppletSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/socialworld/model/NoSuchUserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/socialworld/model/SessionConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/socialworld/model/SocialWorldUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/resources/fetch_flickr_loop.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/main/resources/mongo_backup_crontab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/EventsStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/JavaToJsonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiDataA-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiDataB-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiDataC-1 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiDataD-1 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiDataE-12 34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiDataF-12 34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiResultTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg/src/test/java/com/benblamey/core/onmi/onmiTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.core/.gradle/" />
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.core/build/" />
@@ -129,6 +236,9 @@
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/.gradle/" />
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build/" />
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/out/" />
+    <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build/" />
+    <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +257,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/com.benblamey.saesneg.fetcher">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/com.benblamey.saesneg.pipeline">
       <ProjectState />
     </projectState>
   </component>
@@ -169,6 +282,10 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="com.benblamey.saesneg.core" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.benblamey.saesneg" type="f1a62948:ProjectNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -178,23 +295,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-449">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="52">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/Datum.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2951">
-              <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+            <state relative-caret-position="-449">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../com.benblamey.core/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaemonMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.fetcher/src/main/java/DaemonMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="50" selection-start-column="50" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -213,6 +376,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sesam</find>
+      <find>com.benb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,46 +385,10 @@
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
-      <map>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1" />
-      </map>
+      <map />
     </option>
     <option name="myGradleVersions">
-      <map>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" value="3.1" />
-      </map>
-    </option>
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="com.benblamey.saesneg.fetcher" />
-              <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value=":com.benblamey.core" />
-                <option name="path" value="$PROJECT_DIR$/../com.benblamey.core" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":com.benblamey.saesneg" />
-                <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":com.benblamey.saesneg.core" />
-                <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="com.benblamey.saesneg.fetcher" />
-                <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
+      <map />
     </option>
     <option name="availableTasks">
       <map>
@@ -269,122 +397,122 @@
             <list>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by project ':com.benblamey.core'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':com.benblamey.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in project ':com.benblamey.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of project ':com.benblamey.core'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':com.benblamey.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in project ':com.benblamey.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':com.benblamey.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':com.benblamey.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
                 <option name="name" value=":com.benblamey.core:properties" />
               </ExternalTaskPojo>
             </list>
@@ -516,268 +644,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.benblamey.saesneg.core'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.benblamey.saesneg.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.benblamey.saesneg.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.benblamey.saesneg.core'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.benblamey.saesneg.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.benblamey.saesneg.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.benblamey.saesneg.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.benblamey.saesneg.core'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value=":com.benblamey.saesneg.core:properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'com.benblamey.saesneg.fetcher'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'com.benblamey.saesneg.fetcher'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'com.benblamey.saesneg.fetcher'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'com.benblamey.saesneg.fetcher'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'com.benblamey.saesneg.fetcher' (some of the displayed tasks may belong to subprojects)." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'com.benblamey.saesneg.fetcher'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'com.benblamey.saesneg.fetcher'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'com.benblamey.saesneg.fetcher'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="modificationStamps">
@@ -785,202 +651,19 @@
         <entry key="$PROJECT_DIR$/../com.benblamey.core/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/../com.benblamey.core/build.gradle" value="271514505" />
         <entry key="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" value="1086237700" />
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core" value="9083176953000" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle" value="2389454280" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" value="1859522629" />
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" value="15106606221000" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build.gradle" value="2636228262" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/settings.gradle" value="1310009471" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" value="3385327136" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" value="2307692105" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg/build.gradle" value="1519487798" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg/settings.gradle" value="764534321" />
-      </map>
-    </option>
-    <option name="projectBuildClasspath">
-      <map>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher">
-          <value>
-            <ExternalProjectBuildClasspathPojo>
-              <option name="modulesBuildClasspath">
-                <map>
-                  <entry key="$PROJECT_DIR$/../com.benblamey.core">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/../com.benblamey.core" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/com.benblamey.saesneg">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="name" value="com.benblamey.core" />
-              <option name="projectBuildClasspath">
-                <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/composite-builds" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/installation-beacon" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-android-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jvm-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/logging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/process-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/task-cache-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-base-services-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-cli-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-core-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-docs-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-launcher-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-logging-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-messaging-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-model-core-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-open-api-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-process-services-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-resources-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-ui-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-wrapper-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/groovy-all-2.4.7.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/buildSrc/src/main/java" />
-                  <option value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/buildSrc/src/main/groovy" />
-                </list>
-              </option>
-            </ExternalProjectBuildClasspathPojo>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -995,6 +678,9 @@
         <option value="$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/Datum.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build.gradle" />
+        <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" />
+        <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" />
       </list>
     </option>
   </component>
@@ -1011,7 +697,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="saesneg" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.benblamey.saesneg" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="saesneg" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.benblamey.saesneg" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="com.benblamey.saesneg.core" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="saesneg" type="58d84e3e:PackageViewProjectNode" />
+              <item name="com.benblamey.saesneg" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="com.benblamey.saesneg.core" type="616d4139:PackageViewModuleNode" />
+              <item name="com.benblamey.core" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -1019,6 +726,17 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="com" type="cbb8eebc:String" user="com" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="benblamey" type="cbb8eebc:String" user="benblamey" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="benblamey" type="cbb8eebc:String" user="benblamey" />
+              <item name="saesneg" type="cbb8eebc:String" user="saesneg" />
             </path>
           </expand>
           <select />
@@ -1029,7 +747,15 @@
           <expand>
             <path>
               <item name="saesneg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.benblamey.saesneg" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com.benblamey.core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="saesneg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.benblamey.saesneg.core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="saesneg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.benblamey.saesneg.pipeline" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1056,17 +782,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.com.benblamey.saesneg.core [:com.benblamey.core:build]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="com.benblamey.saesneg.core [:com.benblamey.core:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":com.benblamey.core:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <configuration name="com.benblamey.saesneg.core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="com.benblamey.saesneg.fetcher [:com.benblamey.saesneg:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":com.benblamey.saesneg:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="com.benblamey.saesneg.fetcher [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1138,9 +915,18 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.com.benblamey.saesneg.core [build]" />
+      <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [build]" />
+      <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [:com.benblamey.saesneg:build]" />
+      <item itemvalue="Gradle.com.benblamey.saesneg.core [:com.benblamey.core:build]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.com.benblamey.saesneg.core [:com.benblamey.core:build]" />
+        <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [:com.benblamey.saesneg:build]" />
         <item itemvalue="Gradle.com.benblamey.saesneg.core [build]" />
+        <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -1170,13 +956,13 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.625" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.50386596" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29256082" />
       <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Build" weight="0.32860824" />
-      <window_info anchor="right" id="Gradle" order="4" visible="true" weight="0.32331902" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32860824" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32331902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -1284,19 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.fetcher/src/main/java/DaemonMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.evaluation/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1325,13 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1369,7 +1135,7 @@
     <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-449">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1385,11 +1151,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg/src/main/java/benblamey/saesneg/model/datums/Datum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2951">
-          <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        <state relative-caret-position="39">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.fetcher/src/main/java/DaemonMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1446,7 +1253,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>core|benblamey|com</last-edited>
+          <last-edited>com.benblamey.saesneg</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

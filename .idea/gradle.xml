@@ -3,29 +3,8 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/../com.benblamey.core" />
-            <option value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
-          </set>
-        </option>
-        <option name="resolveModulePerSourceSet" value="false" />
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/../com.benblamey.core" />
-            <option value="$PROJECT_DIR$/com.benblamey.saesneg" />
-            <option value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
-            <option value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
-          </set>
-        </option>
-        <option name="resolveModulePerSourceSet" value="false" />
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>

@@ -20,7 +20,7 @@ dependencies {
 dependencies {
 
   compile project(':com.benblamey.core')
-  compile project(':com.benblamey.saesneg.core')
+  //compile project(':com.benblamey.saesneg.core')
 
   compile group: 'com.restfb', name: 'restfb', version: '1.16.0'
   //compile fileTree(dir: '../lib/restfb-original-lifestories', include: '*.jar')

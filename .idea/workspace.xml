@@ -5,16 +5,11 @@
       <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.idea/modules/com.benblamey.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/.idea/modules/com.benblamey.core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core/com.benblamey.saesneg.pipeline-com.benblamey.saesneg.core.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.core/.gradle/" />
@@ -118,7 +113,25 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="com.benblamey.saesneg.pipeline" type="f1a62948:ProjectNode" />
+                <item name="com.benblamey.saesneg.pipeline" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.benblamey.saesneg.pipeline" type="f1a62948:ProjectNode" />
+                <item name="com.benblamey.saesneg.pipeline" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.benblamey.saesneg.pipeline" type="f1a62948:ProjectNode" />
                 <item name=":com.benblamey.core" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="com.benblamey.saesneg.pipeline" type="f1a62948:ProjectNode" />
+                <item name=":com.benblamey.saesneg.core" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -129,13 +142,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
@@ -154,11 +163,7 @@
       </file>
       <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
@@ -170,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="39">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -252,6 +257,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":com.benblamey.core" />
                 <option name="path" value="$PROJECT_DIR$/../com.benblamey.core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.benblamey.saesneg.core" />
+                <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="com.benblamey.saesneg.pipeline" />
@@ -846,7 +855,6 @@
         <entry key="$PROJECT_DIR$/../com.benblamey.core/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/../com.benblamey.core/build.gradle" value="271514505" />
         <entry key="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core" value="9155241834000" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/build.gradle" value="2389454280" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
@@ -855,10 +863,10 @@
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build.gradle" value="2636228262" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/gradle/wrapper/gradle-wrapper.properties" value="528695444" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/settings.gradle" value="1310009471" />
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" value="9179265498000" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" value="13744883037000" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" value="1421086948" />
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" value="1299917804" />
+        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" value="1158390231" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg/build.gradle" value="1519487798" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg/settings.gradle" value="764534321" />
       </map>
@@ -975,6 +983,13 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -1072,7 +1087,6 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/com.benblamey.saesneg.core" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" value="RE_IMPORT" />
       </map>
     </option>
@@ -1088,9 +1102,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher/build.gradle" />
+        <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" />
         <option value="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" />
         <option value="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" />
-        <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.gradle" />
         <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" />
       </list>
     </option>
@@ -1170,15 +1184,6 @@
               <item name="com.benblamey.core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.benblamey.saesneg.core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.benblamey.saesneg.core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.benblamey.saesneg.core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.benblamey.saesneg.core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.benblamey.saesneg.core" type="b2602c69:ProjectViewProjectNode" />
@@ -1267,10 +1272,10 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="com.benblamey.saesneg.fetcher [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="com.benblamey.saesneg.pipeline [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.fetcher" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1284,7 +1289,7 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="com.benblamey.saesneg.pipeline [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="com.benblamey.saesneg.pipeline [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" />
@@ -1295,7 +1300,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1361,18 +1366,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.com.benblamey.saesneg.core [build]" />
-      <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [build]" />
       <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [:com.benblamey.saesneg:build]" />
       <item itemvalue="Gradle.com.benblamey.saesneg.core [:com.benblamey.core:build]" />
       <item itemvalue="Gradle.com.benblamey.saesneg.pipeline [build]" />
+      <item itemvalue="Gradle.com.benblamey.saesneg.pipeline [clean]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.com.benblamey.saesneg.pipeline [clean]" />
         <item itemvalue="Gradle.com.benblamey.saesneg.pipeline [build]" />
         <item itemvalue="Gradle.com.benblamey.saesneg.core [:com.benblamey.core:build]" />
         <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [:com.benblamey.saesneg:build]" />
         <item itemvalue="Gradle.com.benblamey.saesneg.core [build]" />
-        <item itemvalue="Gradle.com.benblamey.saesneg.fetcher [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -1402,12 +1407,12 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5025773" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5025773" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2081545" />
       <window_info anchor="bottom" id="Docker" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32860824" />
+      <window_info anchor="bottom" id="Build" weight="0.32860824" />
       <window_info anchor="right" id="Gradle" order="4" visible="true" weight="0.32331902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1615,13 +1620,6 @@
     <entry file="file://$PROJECT_DIR$/../com.benblamey.core/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../com.benblamey.core/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1639,17 +1637,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="39">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>

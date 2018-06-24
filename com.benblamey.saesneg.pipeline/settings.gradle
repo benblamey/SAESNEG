@@ -1,7 +1,5 @@
-rootProject.name = 'com.benblamey.saesneg.pipeline'
-
 include ':com.benblamey.core'
-include ':com.benblamey.saesneg.core'
-
 project(':com.benblamey.core').projectDir = new File(settingsDir, '../../com.benblamey.core')
+
+include ':com.benblamey.saesneg.core'
 project(':com.benblamey.saesneg.core').projectDir = new File(settingsDir, '../com.benblamey.saesneg.core')

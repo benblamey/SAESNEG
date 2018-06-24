@@ -30,7 +30,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-visualization-2.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-samples-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-algorithms-2.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -48,6 +57,15 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-visualization-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/colt-1.2.0.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -57,16 +75,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/vecmath-1.3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-io-2.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-graph-impl-2.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -93,6 +102,15 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-io-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/j3d-core-1.3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -102,25 +120,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-samples-2.0.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-algorithms-2.0.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/jung-graph-impl-2.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/jung2-2_0_1/vecmath-1.3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

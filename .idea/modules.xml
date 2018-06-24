@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-559275187/com.benblamey.core.iml" filepath="$PROJECT_DIR$/.idea/modules/-559275187/com.benblamey.core.iml" group="com.benblamey.core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-559275187/com.benblamey.core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-559275187/com.benblamey.core_main.iml" group="com.benblamey.core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-559275187/com.benblamey.core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-559275187/com.benblamey.core_test.iml" group="com.benblamey.core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" group="com.benblamey.saesneg.core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" group="com.benblamey.saesneg.core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline.iml" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: de.unihd.dbs.heideltime.standalone">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/heideltime-standalone/de.unihd.dbs.heideltime.standalone.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: collections-generic-4.01">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/jung2-2_0_1/collections-generic-4.01.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

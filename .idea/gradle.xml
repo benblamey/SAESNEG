@@ -16,6 +16,13 @@
       <GradleProjectSettings>
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../com.benblamey.core" />
+            <option value="$PROJECT_DIR$/com.benblamey.saesneg.core" />
+            <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline" />
+          </set>
+        </option>
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>

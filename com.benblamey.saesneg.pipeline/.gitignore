@@ -45,3 +45,6 @@ repositories/
 
 # build-generated files
 *.timestamp
+
+
+# TODO: review https://intellij-support.jetbrains.com/hc/en-us/articles/206544839

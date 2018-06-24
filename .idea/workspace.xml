@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="898bdd95-f584-4583-9ba8-692192a8189f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.idea/modules/com.benblamey.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/.idea/modules/com.benblamey.core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.benblamey.core/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/build.xml.old" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.core/.gradle/" />
     <ignored path="$PROJECT_DIR$/com.benblamey.saesneg.core/build/" />
@@ -142,6 +141,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../com.benblamey.core/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
           <provider selected="true" editor-type-id="text-editor" />
@@ -175,7 +192,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="39">
@@ -1106,6 +1123,8 @@
         <option value="$PROJECT_DIR$/../com.benblamey.core/settings.gradle" />
         <option value="$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle" />
         <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/settings.gradle" />
+        <option value="$PROJECT_DIR$/../com.benblamey.core/.gitignore" />
+        <option value="$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gitignore" />
       </list>
     </option>
   </component>
@@ -1403,14 +1422,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.5025773" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5025773" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.5025773" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2081545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2081545" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Build" weight="0.32860824" />
       <window_info anchor="right" id="Gradle" order="4" visible="true" weight="0.32331902" />
@@ -1637,9 +1656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.core/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1647,6 +1663,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.benblamey.core/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.benblamey.saesneg.pipeline/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
         </state>
       </provider>
     </entry>

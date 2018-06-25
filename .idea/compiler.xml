@@ -6,6 +6,8 @@
       <module name="com.benblamey.core_test" target="1.8" />
       <module name="com.benblamey.saesneg.core_main" target="1.8" />
       <module name="com.benblamey.saesneg.core_test" target="1.8" />
+      <module name="com.benblamey.saesneg.fetcher_main" target="1.8" />
+      <module name="com.benblamey.saesneg.fetcher_test" target="1.8" />
       <module name="com.benblamey.saesneg.pipeline_main" target="1.8" />
       <module name="com.benblamey.saesneg.pipeline_test" target="1.8" />
       <module name="com.benblamey.saesneg_main" target="1.8" />

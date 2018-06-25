@@ -12,7 +12,7 @@ repositories {
 dependencies {
 
   compile project(':com.benblamey.core')
-  compile project(':com.benblamey.saesneg')
+  compile project(':com.benblamey.saesneg.pipeline')
 
 
   testCompile group: 'junit', name: 'junit', version: '4.11'

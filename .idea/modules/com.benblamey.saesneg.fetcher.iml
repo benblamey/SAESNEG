@@ -1,108 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="com.benblamey.saesneg.fetcher" external.linked.project.path="$MODULE_DIR$/../../com.benblamey.saesneg.fetcher" external.root.project.path="$MODULE_DIR$/../../com.benblamey.saesneg.fetcher" external.system.id="GRADLE" external.system.module.group="benblamey" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/out/production/classes" />
-    <output-test url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/out/test/classes" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher">
-      <sourceFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../com.benblamey.saesneg.fetcher/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="com.benblamey.core" />
-    <orderEntry type="module" module-name="com.benblamey.saesneg.core" />
-    <orderEntry type="library" name="Gradle: com.restfb:restfb:1.16.0" level="project" />
-    <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.mongodb:mongo-java-driver:2.10.1" level="project" />
-    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.22" level="project" />
-    <orderEntry type="library" name="Gradle: org.postgresql:postgresql:9.3-1101-jdbc41" level="project" />
-    <orderEntry type="library" name="Gradle: javax.mail:javax.mail-api:1.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.uima:uimaj-core:2.4.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: net.sf.extjwnl:extjwnl:1.6.8" level="project" />
-    <orderEntry type="library" name="Gradle: uk.ac.gate:gate-core:8.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.2.4" level="project" />
-    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.7.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.openrdf.sesame:sesame-model:2.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.velocity:velocity:1.7" level="project" />
-    <orderEntry type="library" name="Gradle: javax.activation:activation:1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: uk.ac.gate:gate-asm:3.1" level="project" />
-    <orderEntry type="library" name="Gradle: uk.ac.gate:gate-compiler-jdt:4.3.2-P20140317-1600" level="project" />
-    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
-    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Gradle: org.jdom:jdom:1.1.3" level="project" />
-    <orderEntry type="library" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.14" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tika:tika-parsers:1.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.codehaus.woodstox:woodstox-core-lgpl:4.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.ivy:ivy:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.ant:ant:1.9.3" level="project" />
-    <orderEntry type="library" name="Gradle: xpp3:xpp3:1.1.4c" level="project" />
-    <orderEntry type="library" name="Gradle: jaxen:jaxen:1.1.6" level="project" />
-    <orderEntry type="library" name="Gradle: gnu.getopt:java-getopt:1.0.13" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:2.5.6.SEC01" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.3.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.xhtmlrenderer:flying-saucer-core:9.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: xmlunit:xmlunit:1.5" level="project" />
-    <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
-    <orderEntry type="library" name="Gradle: org.openrdf.sesame:sesame-util:2.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: xerces:xercesImpl:2.9.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tika:tika-core:1.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.james:apache-mime4j-core:0.7.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.james:apache-mime4j-dom:0.7.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.5" level="project" />
-    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.pdfbox:pdfbox:1.8.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcmail-jdk15:1.45" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15:1.45" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.poi:poi:3.10-beta2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.poi:poi-scratchpad:3.10-beta2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml:3.10-beta2" level="project" />
-    <orderEntry type="library" name="Gradle: com.drewnoakes:metadata-extractor:2.6.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.ant:ant-launcher:1.9.3" level="project" />
-    <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:2.5.6.SEC01" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-core:2.5.6.SEC01" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.3.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.6.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.pdfbox:fontbox:1.8.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.pdfbox:jempbox:1.8.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.10-beta2" level="project" />
-    <orderEntry type="library" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.1.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.7" level="project" />
-    <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
-    <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.3.04" level="project" />
-    <orderEntry type="library" name="Gradle: caliph-emir-ben-2016-02-14" level="project" />
-    <orderEntry type="library" name="Gradle: de.unihd.dbs.heideltime.standalone" level="project" />
-    <orderEntry type="library" name="Gradle: JSON-java" level="project" />
-    <orderEntry type="library" name="Gradle: collections-generic-4.01" level="project" />
-    <orderEntry type="library" name="Gradle: colt-1.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: j3d-core-1.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-3d-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-3d-demos-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-algorithms-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-api-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-graph-impl-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-io-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-jai-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-jai-samples-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-samples-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: jung-visualization-2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: vecmath-1.3.1" level="project" />
   </component>
 </module>

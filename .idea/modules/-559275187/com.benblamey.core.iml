@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../com.benblamey.core">
       <excludeFolder url="file://$MODULE_DIR$/../../../../com.benblamey.core/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../com.benblamey.core/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../com.benblamey.core/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../com.benblamey.core/out" />
     </content>

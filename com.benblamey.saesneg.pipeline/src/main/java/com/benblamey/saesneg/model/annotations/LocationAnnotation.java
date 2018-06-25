@@ -2,7 +2,7 @@ package com.benblamey.saesneg.model.annotations;
 
 import com.restfb.types.Location;
 
-public class LocationAnnotation extends Annotation {
+public class LocationAnnotation extends com.benblamey.saesneg.model.annotations.Annotation {
 
     private double _latitude;
     private double _longitude;
@@ -10,7 +10,7 @@ public class LocationAnnotation extends Annotation {
     public LocationAnnotation() {
     }
 
-    public LocationAnnotation(Location fbLocation, String originatingField, DataKind sourceDataKind) {
+    public LocationAnnotation(Location fbLocation, String originatingField, com.benblamey.saesneg.model.annotations.DataKind sourceDataKind) {
         _latitude = fbLocation.getLatitude();
         _longitude = fbLocation.getLongitude();
         Level = 11; // Use n'hood level for Facebook places, things like streets.

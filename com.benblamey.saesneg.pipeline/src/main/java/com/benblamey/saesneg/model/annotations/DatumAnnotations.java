@@ -7,7 +7,7 @@ public class DatumAnnotations {
 
     public final List<LocationAnnotation> Locations = new ArrayList<>();
     public final List<PersonAnnotation> People = new ArrayList<>();
-    public final List<benblamey.saesneg.model.annotations.socialevents.SocialEventAnnotation> SocialEventAnnotation = new ArrayList<>();
+    public final List<com.benblamey.saesneg.model.annotations.socialevents.SocialEventAnnotation> SocialEventAnnotation = new ArrayList<>();
     public final List<DatumsInUserStructureAnnotation> UserStructureAnnotations = new ArrayList<>();
     public final List<TemporalAnnotation> DateTimesAnnotations = new ArrayList<>();
     public final List<ImageContentAnnotation> ImageContentAnnotations = new ArrayList<>();

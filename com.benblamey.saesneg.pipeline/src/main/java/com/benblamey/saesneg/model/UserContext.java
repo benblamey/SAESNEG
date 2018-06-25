@@ -28,9 +28,9 @@ public class UserContext {
     private String _name;
     private User _profile;
     public String FacebookAccessKey;
-    private LifeStory _defaultLifeStory;
+    private com.benblamey.saesneg.model.LifeStory _defaultLifeStory;
 
-    public transient benblamey.saesneg.serialization.LifeStoryInfo lifeStoryInfo;
+    public transient com.benblamey.saesneg.serialization.LifeStoryInfo lifeStoryInfo;
     public transient SocialWorldUser socialWorldUser;
 
     public transient FacebookClientHelper fch;
@@ -55,7 +55,7 @@ public class UserContext {
        return uc;
     }
 
-    public static UserContext FromSocialWorldUser(DBObject obj, LifeStory defaultLifeStory) {
+    public static UserContext FromSocialWorldUser(DBObject obj, com.benblamey.saesneg.model.LifeStory defaultLifeStory) {
         if (obj == null) {
             throw new RuntimeException("obj is null");
         }

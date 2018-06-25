@@ -441,7 +441,7 @@ boolean passesFilter =
         // Handle the Social Event annotations.
         for (Annotation an : intersectingAnnotations.get(StanfordNLPService.SOCIALEVENT_ANNOTATION)) {
             CoreMap cm = (CoreMap) an.getFeatures().get(StanfordNLPService.COREMAP_FEATURE);
-            SocialEventExpression eventExpression = cm.get(benblamey.eventparser.SocialEventExpression.Annotation.class);
+            SocialEventExpression eventExpression = cm.get(SocialEventExpression.Annotation.class);
             SocialEventAnnotation se = (SocialEventAnnotation) eventExpression.getValue().get();
             se.SourceDataKind = DataKind.Text;
             se.setOriginalText(content.getContent(
@@ -465,7 +465,7 @@ boolean passesFilter =
         if (opt.geocodeMetadata)
         {
             System.out.println("Searching " + location + " from " + this._data.getClass().getName() + " field: " + originatingField);
-            LocationAnnotation geoCode = GoogleGeoCode.geoCode(location);
+            LocationAnnotation geoCode = com.benblamey.saesneg.googlegeocode.GoogleGeoCode.geoCode(location);
             if (geoCode != null) {
                 geoCode.SourceDataKind = DataKind.Metadata;
                 this.getAnnotations().Locations.add(geoCode);

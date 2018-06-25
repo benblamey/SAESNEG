@@ -44,7 +44,7 @@ public class ProcessText {
 
         if (osmOptions != null) {
 
-            benblamey.nominatim.OpenStreetMapSearch mapSearch = new OpenStreetMapSearch(osmOptions);
+            com.benblamey.nominatim.OpenStreetMapSearch mapSearch = new OpenStreetMapSearch(osmOptions);
 
             List<Annotation> sortedSentences = GateUtils2.getSortedAnnotations(doc.getAnnotations().get("Sentence"));
 

@@ -8,10 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core.iml" group="com.benblamey.saesneg.core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_main.iml" group="com.benblamey.saesneg.core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.core_test.iml" group="com.benblamey.saesneg.core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation_main.iml" group="com.benblamey.saesneg.evaluation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.evaluation_test.iml" group="com.benblamey.saesneg.evaluation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher_main.iml" group="com.benblamey.saesneg.fetcher" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.fetcher_test.iml" group="com.benblamey.saesneg.fetcher" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline.iml" group="com.benblamey.saesneg.pipeline" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_main.iml" group="com.benblamey.saesneg.pipeline" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.benblamey.saesneg.pipeline_test.iml" group="com.benblamey.saesneg.pipeline" />
     </modules>

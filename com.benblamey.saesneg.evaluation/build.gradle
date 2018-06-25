@@ -23,6 +23,6 @@ dependencies {
   compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.2.3'
 
   compile project(':com.benblamey.core')
-  compile project(':com.benblamey.saesneg')
+  compile project(':com.benblamey.saesneg.pipeline')
 
 }
